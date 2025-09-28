@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GG">
+    <Package name="Music">
+        <!-- 90s Rap -->
+        <Key ID="STR_GG_Music_90sRap">
+            <English>90s Rap</English>
+        </Key>
+        <Key ID="STR_GG_Music_AmbitionzAzARidah">
+            <English>2Pac - Ambitionz Az a Ridah</English>
+        </Key>
+        <Key ID="STR_GG_Music_DiamondsAndWood">
+            <English>UGK - Diamonds &amp; Wood</English>
+        </Key>
+        <Key ID="STR_GG_Music_GinAndJuice">
+            <English>Snoop Dogg - Gin And Juice</English>
+        </Key>
+        <Key ID="STR_GG_Music_HailMary">
+            <English>2Pac - Hail Mary</English>
+        </Key>
+        <Key ID="STR_GG_Music_IGot5OnIt">
+            <English>Luniz - I Got 5 On It</English>
+        </Key>
+        <Key ID="STR_GG_Music_ISmellSmoke">
+            <English>Mystikal - I Smell Smoke</English>
+        </Key>
+        <Key ID="STR_GG_Music_ItWasAGoodDay">
+            <English>Ice Cube - It Was A Good Day</English>
+        </Key>
+        <Key ID="STR_GG_Music_Murder">
+            <English>UGK - Murder</English>
+        </Key>
+        <Key ID="STR_GG_Music_MyMindPlayinTricksOnMe">
+            <English>Geto Boys - My Mind Playin Tricks On Me</English>
+        </Key>
+        <Key ID="STR_GG_Music_NoMoPlay">
+            <English>Pastor Troy - No Mo Play</English>
+        </Key>
+        <Key ID="STR_GG_Music_NotoriousThugs">
+            <English>Biggie Smalls - Notorious Thugs ft. Bone Thugs-n-Harmony</English>
+        </Key>
+        <Key ID="STR_GG_Music_NuthinButAGThang">
+            <English>Dr. Dre - Nuthin' But A G Thang ft. Snoop Dogg</English>
+        </Key>
+        <Key ID="STR_GG_Music_Regulate">
+            <English>Warren G - Regulate ft. Nate Dogg</English>
+        </Key>
+        <Key ID="STR_GG_Music_SippinOnSomeSyrup">
+            <English>Three 6 Mafia - Sippin' on Some Syrup ft. UGK</English>
+        </Key>
+        <Key ID="STR_GG_Music_StillSmokin">
+            <English>Mystikal - Still Smokin</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheManRightChea">
+            <English>Mystikal - The Man Right Chea</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThugLuv">
+            <English>Bone Thugs-n-Harmony - Thug Luv ft. 2Pac</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThuggishRuggishBone">
+            <English>Bone Thugs-n-Harmony - Thuggish Ruggish Bone</English>
+        </Key>
+        <Key ID="STR_GG_Music_WhoDatTalkingDown">
+            <English>Big Pokey - Who Dat Talking Down</English>
+        </Key>
+        <Key ID="STR_GG_Music_WhoRunIt">
+            <English>Three 6 Mafia - Who Run It</English>
+        </Key>
+
+        <!-- Assorted Bangers -->
+        <Key ID="STR_GG_Music_AssortedBangers">
+            <English>Assorted Bangers</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheLadyDontMind">
+            <English>Talking Heads - The Lady Don't Mind</English>
+        </Key>
+        <Key ID="STR_GG_Music_PaleShelter">
+            <English>Tears for Fears - Pale Shelter</English>
+        </Key>
+        <Key ID="STR_GG_Music_Maneater">
+            <English>Hall and Oats - Maneater</English>
+        </Key>
+        <Key ID="STR_GG_Music_IRanSoFarAway">
+            <English>A Flock of Seagulls - I Ran (So Far Away)</English>
+        </Key>
+        <Key ID="STR_GG_Music_SweetDreamsAreMadeOfThis">
+            <English>Eurythmics - Sweet Dreams (Are Made of This)</English>
+        </Key>
+        <Key ID="STR_GG_Music_BlueMonday">
+            <English>New Order - Blue Monday</English>
+        </Key>
+        <Key ID="STR_GG_Music_LifeDuringWartime">
+            <English>Talking Heads - Life During Wartime</English>
+        </Key>
+        <Key ID="STR_GG_Music_OutOfTouch">
+            <English>Hall and Oats - Out of Touch</English>
+        </Key>
+        <Key ID="STR_GG_Music_SmalltownBoy">
+            <English>Bronski Beat - Smalltown Boy</English>
+        </Key>
+        <Key ID="STR_GG_Music_OverAndOver">
+            <English>Hot Chip - Over and Over</English>
+        </Key>
+        <Key ID="STR_GG_Music_PsychoKiller">
+            <English>Talking Heads - Psycho Killer</English>
+        </Key>
+        <Key ID="STR_GG_Music_LittleDarkAge">
+            <English>MGMT - Little Dark Age</English>
+        </Key>
+        <Key ID="STR_GG_Music_Nightcall">
+            <English>Kavinsky - Nightcall</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheManWhoSoldTheWorld">
+            <English>Midge Ure - The Man Who Sold The World</English>
+        </Key>
+        <Key ID="STR_GG_Music_BlindingLights">
+            <English>The Weeknd - Blinding Lights</English>
+        </Key>
+        <Key ID="STR_GG_Music_Edgerunner">
+            <English>The Experiment - Edgerunner</English>
+        </Key>
+        <Key ID="STR_GG_Music_InTheAirTonight">
+            <English>Phil Collins - In The Air Tonight</English>
+        </Key>
+        <Key ID="STR_GG_Music_MessageInABottle">
+            <English>The Police - Message In A Bottle</English>
+        </Key>
+        <Key ID="STR_GG_Music_YourLove">
+            <English>The Outfield - Your Love</English>
+        </Key>
+        <Key ID="STR_GG_Music_Dreams">
+            <English>Fleetwood Mac - Dreams</English>
+        </Key>
+        <Key ID="STR_GG_Music_TunnelOfLove">
+            <English>Dire Straits - Tunnel of Love</English>
+        </Key>
+        <Key ID="STR_GG_Music_DancingInTheDark">
+            <English>Hot Chip - Dancing In The Dark</English>
+        </Key>
+        <Key ID="STR_GG_Music_PapaWasARollingStone">
+            <English>The Temptations - Papa Was A Rolling Stone</English>
+        </Key>
+        <Key ID="STR_GG_Music_DoItAgain">
+            <English>Steely Dan - Do It Again</English>
+        </Key>
+        <Key ID="STR_GG_Music_BennysHere">
+            <English>Natural Child - Benny's Here</English>
+        </Key>
+        <Key ID="STR_GG_Music_Showdown">
+            <English>Electric Light Orchestra - Showdown</English>
+        </Key>
+        <Key ID="STR_GG_Music_Destination">
+            <English>Felt - Destination</English>
+        </Key>
+        <Key ID="STR_GG_Music_BabyImYours">
+            <English>Breakbot - Baby I'm Yours ft. Irfane</English>
+        </Key>
+        <Key ID="STR_GG_Music_GetLucky">
+            <English>Daft Punk - Get Lucky</English>
+        </Key>
+        <Key ID="STR_GG_Music_IHeardItThroughTheGrapevine">
+            <English>Creedence Clearwater Revival - I Heard It Through The Grapevine</English>
+        </Key>
+        <Key ID="STR_GG_Music_SisterGoldenHair">
+            <English>America - Sister Golden Hair</English>
+        </Key>
+        <Key ID="STR_GG_Music_Layla">
+            <English>Derek and The Dominos - Layla</English>
+        </Key>
+        <Key ID="STR_GG_Music_Psycho">
+            <English>Jack Kittel - Psycho</English>
+        </Key>
+        <Key ID="STR_GG_Music_Mykonos">
+            <English>Fleet Foxes - Mykonos</English>
+        </Key>
+        <Key ID="STR_GG_Music_BonesInTheOcean">
+            <English>The Longest Jonhs - Bones in the Ocean</English>
+        </Key>
+        <Key ID="STR_GG_Music_RedRightHand">
+            <English>Nick Cave and the Bad Seeds - Red Right Hand</English>
+        </Key>
+        <Key ID="STR_GG_Music_JustDroppedIn">
+            <English>Mickey Newbury - Just Dropped In</English>
+        </Key>
+        <Key ID="STR_GG_Music_IfYouCouldReadMyMind">
+            <English>Gordon Lightfoot - If You Could Read My Mind</English>
+        </Key>
+        <Key ID="STR_GG_Music_DontThinkTwiceItsAllRight">
+            <English>Ramblin' Jack Elliot - Don't Think Twice It's All Right</English>
+        </Key>
+        <Key ID="STR_GG_Music_500Miles">
+            <English>The Journeymen - 500 Miles</English>
+        </Key>
+        <Key ID="STR_GG_Music_LittleWing">
+            <English>Stevie Ray Vaughan and Double Trouble - Little Wing</English>
+        </Key>
+        <Key ID="STR_GG_Music_HeyJoe">
+            <English>The Jimi Hendrix Experience - Hey Joe</English>
+        </Key>
+        <Key ID="STR_GG_Music_AllAlongTheWatchtower">
+            <English>The Jimi Hendrix Experience - All Along The Watchtower</English>
+        </Key>
+        <Key ID="STR_GG_Music_ComingIntoLosAngeles">
+            <English>Arlo Guthrie - Coming into Los Angeles</English>
+        </Key>
+        <Key ID="STR_GG_Music_PaintItBlack">
+            <English>The Rolling Stones - Paint It Black</English>
+        </Key>
+        <Key ID="STR_GG_Music_StrawberryLetter23">
+            <English>Shuggie Otis - Strawberry Letter 23</English>
+        </Key>
+        <Key ID="STR_GG_Music_Pinball">
+            <English>Brian Protheroe - Pinball</English>
+        </Key>
+        <Key ID="STR_GG_Music_Cocaine">
+            <English>Universe - Cocaine</English>
+        </Key>
+        <Key ID="STR_GG_Music_WhiteRoom">
+            <English>Cream - White Room</English>
+        </Key>
+        <Key ID="STR_GG_Music_Godzilla">
+            <English>Blue Oyster Cult - Godzilla</English>
+        </Key>
+        <Key ID="STR_GG_Music_Time">
+            <English>Pink Floyd - Time</English>
+        </Key>
+        <Key ID="STR_GG_Music_OneOfTheseDays">
+            <English>Pink Floyd - One Of These Days</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheMomentBefore">
+            <English>The Experiment - The Moment Before</English>
+        </Key>
+        <Key ID="STR_GG_Music_FarFromAnyRoad">
+            <English>The Handsome Family - Far From Any Road</English>
+        </Key>
+        <Key ID="STR_GG_Music_GhostRidersInTheSky">
+            <English>The Outlaws - Ghost Riders in the Sky</English>
+        </Key>
+        <Key ID="STR_GG_Music_DontFearTheReaper">
+            <English>Blue Oyster Cult - Don't Fear The Reaper</English>
+        </Key>
+        <Key ID="STR_GG_Music_Epitaph">
+            <English>King Crimson - Epitaph</English>
+        </Key>
+        <Key ID="STR_GG_Music_HouseOfTheRisingSun">
+            <English>The Animals - House Of The Rising Sun</English>
+        </Key>
+        <Key ID="STR_GG_Music_AWhiterShadeOfPale">
+            <English>King Curtis - A Whiter Shade of Pale</English>
+        </Key>
+        <Key ID="STR_GG_Music_BlackMagicWoman">
+            <English>Santana - Black Magic Woman</English>
+        </Key>
+        <Key ID="STR_GG_Music_Abracadabra">
+            <English>Steve Miller Band - Abracadabra</English>
+        </Key>
+        <Key ID="STR_GG_Music_AintNoLoveInTheHeartOfTheCity">
+            <English>Bobby "Blue" Bland - Ain't No Love In The Heart Of The City</English>
+        </Key>
+        <Key ID="STR_GG_Music_CaliforniaDreamin">
+            <English>Eddie Hazel - California Dreamin'</English>
+        </Key>
+        <Key ID="STR_GG_Music_SunshineOfYourLove">
+            <English>Cream - Sunshine Of Your Love</English>
+        </Key>
+        <Key ID="STR_GG_Music_ComeAndGetYourLove">
+            <English>Redbone - Come and Get Your Love</English>
+        </Key>
+        <Key ID="STR_GG_Music_SpaceTruckin">
+            <English>Deep Purple - SpaceTruckin'</English>
+        </Key>
+        <Key ID="STR_GG_Music_Strutter">
+            <English>KISS - Strutter</English>
+        </Key>
+        <Key ID="STR_GG_Music_Refugee">
+            <English>Tom Petty and The Heartbreakers - Refugee</English>
+        </Key>
+        <Key ID="STR_GG_Music_LosingMyReligion">
+            <English>REM - Losing My Religion</English>
+        </Key>
+        <Key ID="STR_GG_Music_DearGod">
+            <English>XTC - Dear God</English>
+        </Key>
+        <Key ID="STR_GG_Music_BurninForYou">
+            <English>Blue Oyster Cult - Burnin' for You</English>
+        </Key>
+        <Key ID="STR_GG_Music_CallMe">
+            <English>Blondie - Call Me</English>
+        </Key>
+        <Key ID="STR_GG_Music_DaYaThinkImSexy">
+            <English>Rod Stewart - Da Ya Think I'm Sexy</English>
+        </Key>
+        <Key ID="STR_GG_Music_TakeMeOut">
+            <English>Franz Ferdinand - Take Me Out</English>
+        </Key>
+        <Key ID="STR_GG_Music_SevenNationArmy">
+            <English>The White Stripes - Seven Nation Army</English>
+        </Key>
+        <Key ID="STR_GG_Music_OffendInEveryWay">
+            <English>The White Stripes - Offend In Every Way</English>
+        </Key>
+        <Key ID="STR_GG_Music_NotYourKindOfPeople">
+            <English>Garbage - Not Your Kind of People</English>
+        </Key>
+        <Key ID="STR_GG_Music_NotUpToMe">
+            <English>Kandle - Not up to Me</English>
+        </Key>
+        <Key ID="STR_GG_Music_LoveWillTearUsApart">
+            <English>Joy Division - Love Will Tear Us Apart</English>
+        </Key>
+        <Key ID="STR_GG_Music_Buena">
+            <English>Morphine - Buena</English>
+        </Key>
+        <Key ID="STR_GG_Music_WalkThisLand">
+            <English>E-Z Rollers - Walk This Land ('99 Mix)</English>
+        </Key>
+        <Key ID="STR_GG_Music_PumpedUpKicks">
+            <English>Foster The People - Pumped Up Kicks</English>
+        </Key>
+        <Key ID="STR_GG_Music_WhenTheLeveeBreaks">
+            <English>Led Zeppelin - When the Levee Breaks</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThenCameTheLastDaysOfMay">
+            <English>Blue Oyster Cult - Then Came the Last Days of May</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheBottomlessHole">
+            <English>The Handsome Family - The Bottomless Hole</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheChain">
+            <English>Fleetwood Mac - The Chain</English>
+        </Key>
+        <Key ID="STR_GG_Music_CatchTheRainbow">
+            <English>Rainbow - Catch The Rainbow</English>
+        </Key>
+        <Key ID="STR_GG_Music_BadCompany">
+            <English>Bad Company - Bad Company</English>
+        </Key>
+        <Key ID="STR_GG_Music_Mother">
+            <English>Danzig - Mother</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThatSmell">
+            <English>Lynyrd Skynyrd - That Smell</English>
+        </Key>
+        <Key ID="STR_GG_Music_MaryJanesLastDance">
+            <English>Tom Petty and The Heartbreakers - Mary Jane's Last Dance</English>
+        </Key>
+        <Key ID="STR_GG_Music_CallMeTheBreeze">
+            <English>Lynyrd Skynyrd - Call Me The Breeze</English>
+        </Key>
+        <Key ID="STR_GG_Music_ChoctawBingo">
+            <English>James McMurtry - Choctaw Bingo</English>
+        </Key>
+        <Key ID="STR_GG_Music_FeelGoodInc">
+            <English>The Gorillaz - Feel Good Inc.</English>
+        </Key>
+        <Key ID="STR_GG_Music_CantFeelMyFace">
+            <English>The Weeknd - Can't Feel My Face</English>
+        </Key>
+        <Key ID="STR_GG_Music_SingAlong">
+            <English>Sturgill Simpson - Sing Along</English>
+        </Key>
+        <Key ID="STR_GG_Music_AGoodLook">
+            <English>Sturgill Simpson - A Good Look</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheLessIKnowTheBetter">
+            <English>Tame Impala - The Less I Know the Better</English>
+        </Key>
+        <Key ID="STR_GG_Music_AbsoluteTerritory">
+            <English>Ken Ashcorp - Absolute Territory</English>
+        </Key>
+        <Key ID="STR_GG_Music_CocaineMan">
+            <English>Baxter Dury - Cocaine Man</English>
+        </Key>
+        <Key ID="STR_GG_Music_InTheCity">
+            <English>Joe Walsh - In The City</English>
+        </Key>
+        <Key ID="STR_GG_Music_AHorseWithNoName">
+            <English>America - A Horse With No Name</English>
+        </Key>
+        <Key ID="STR_GG_Music_HowLong">
+            <English>Dire Straits - How Long</English>
+        </Key>
+        <Key ID="STR_GG_Music_InHellIllBeInGoodCompany">
+            <English>The Dead South - In Hell I'll Be In Good Company</English>
+        </Key>
+        <Key ID="STR_GG_Music_BigIron">
+            <English>Marty Robbins - Big Iron</English>
+        </Key>
+        <Key ID="STR_GG_Music_LastTrainHome">
+            <English>Pat Metheny Group - Last Train Home</English>
+        </Key>
+        <Key ID="STR_GG_Music_SimpleMan">
+            <English>Lynyrd Skynyrd - Simple Man</English>
+        </Key>
+        <Key ID="STR_GG_Music_StairwayToHeaven">
+            <English>Led Zeppelin - Stairway To Heaven</English>
+        </Key>
+        <Key ID="STR_GG_Music_FreeBird">
+            <English>Lynyrd Skynyrd - Free Bird</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheEcstasyOfGold">
+            <English>Ennio Morricone - The Ecstasy of Gold</English>
+        </Key>
+        <Key ID="STR_GG_Music_Battery">
+            <English>Metallica - Battery</English>
+        </Key>
+        <Key ID="STR_GG_Music_SeekAndDestroy">
+            <English>Metallica - Seek And Destroy</English>
+        </Key>
+        <Key ID="STR_GG_Music_ForWhomTheBellTolls">
+            <English>Metallica - For Whom The Bell Tolls</English>
+        </Key>
+        <Key ID="STR_GG_Music_SquareHammer">
+            <English>Ghost - Square Hammer</English>
+        </Key>
+        <Key ID="STR_GG_Music_DanceMacabre">
+            <English>Ghost - Dance Macabre</English>
+        </Key>
+        <Key ID="STR_GG_Music_KnightsOfCydonia">
+            <English>Muse - Knights of Cydonia</English>
+        </Key>
+        <Key ID="STR_GG_Music_ISeeThroughYou">
+            <English>Uncle Acid and the Deadbeats - I See Through You</English>
+        </Key>
+        <Key ID="STR_GG_Music_DeathsDoor">
+            <English>Uncle Acid and the Deadbeats - Death's Door</English>
+        </Key>
+        <Key ID="STR_GG_Music_WelcomeToTheVoid">
+            <English>The Kings of Frog Island - Welcome to the Void</English>
+        </Key>
+        <Key ID="STR_GG_Music_ColdSweat">
+            <English>Thin Lizzy - Cold Sweat</English>
+        </Key>
+        <Key ID="STR_GG_Music_WeAreTheRoadCrew">
+            <English>Motorhead - We Are The Road Crew</English>
+        </Key>
+        <Key ID="STR_GG_Music_AceOfSpades">
+            <English>Motorhead - Ace of Spades</English>
+        </Key>
+        <Key ID="STR_GG_Music_HolyDiver">
+            <English>Dio - Holy Diver</English>
+        </Key>
+        <Key ID="STR_GG_Music_DeathByDesign">
+            <English>Diamond Head - Death by Design</English>
+        </Key>
+        <Key ID="STR_GG_Music_CultOfPersonality">
+            <English>Living Color - Cult Of Personality</English>
+        </Key>
+        <Key ID="STR_GG_Music_Hellraiser">
+            <English>Ozzy Osbourne - Hellraiser</English>
+        </Key>
+        <Key ID="STR_GG_Music_NoMoreTears">
+            <English>Ozzy Osbourne - No More Tears</English>
+        </Key>
+        <Key ID="STR_GG_Music_Stillborn">
+            <English>Black Label Society - Stillborn</English>
+        </Key>
+        <Key ID="STR_GG_Music_CounterfeitGod">
+            <English>Black Label Society - Counterfeit God</English>
+        </Key>
+        <Key ID="STR_GG_Music_MassMurderMachine">
+            <English>Black Label Society - Mass Murder Machine</English>
+        </Key>
+        <Key ID="STR_GG_Music_BatteringRam">
+            <English>Black Label Society - Battering Ram</English>
+        </Key>
+        <Key ID="STR_GG_Music_GenocideJunkies">
+            <English>Black Label Society - Genocide Junkies</English>
+        </Key>
+        <Key ID="STR_GG_Music_WarPigs">
+            <English>Black Sabbath - War Pigs</English>
+        </Key>
+        <Key ID="STR_GG_Music_NIB">
+            <English>Black Sabbath - NIB</English>
+        </Key>
+        <Key ID="STR_GG_Music_Supernaut">
+            <English>Black Sabbath - Supernaut</English>
+        </Key>
+        <Key ID="STR_GG_Music_SabbraCadabra">
+            <English>Black Sabbath - Sabbra Cadabra</English>
+        </Key>
+        <Key ID="STR_GG_Music_SabbathBloodySabbath">
+            <English>Black Sabbath - Sabbath Bloody Sabbath</English>
+        </Key>
+        <Key ID="STR_GG_Music_Snowblind">
+            <English>Black Sabbath - Snowblind</English>
+        </Key>
+        <Key ID="STR_GG_Music_ANationalAcrobat">
+            <English>Black Sabbath - A National Acrobat</English>
+        </Key>
+        <Key ID="STR_GG_Music_IntoTheVoid">
+            <English>Black Sabbath - Into the Void</English>
+        </Key>
+        <Key ID="STR_GG_Music_CountryGirl">
+            <English>Black Sabbath - Country Girl</English>
+        </Key>
+        <Key ID="STR_GG_Music_HeavenAndHell">
+            <English>Black Sabbath - Heaven and Hell</English>
+        </Key>
+        <Key ID="STR_GG_Music_Badlands">
+            <English>Palerider - Badlands</English>
+        </Key>
+        <Key ID="STR_GG_Music_MoonsOfNeptune">
+            <English>The Machine - Moons of Neptune</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheMan">
+            <English>The Killers - The Man</English>
+        </Key>
+        <Key ID="STR_GG_Music_Rasputin">
+            <English>Boney M. - Rasputin</English>
+        </Key>
+
+        <!-- Depression -->
+        <Key ID="STR_GG_Music_Depression">
+            <English>Depression</English>
+        </Key>
+        <Key ID="STR_GG_Music_MadWorld">
+            <English>Gary Jules - Mad World</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheEveningTrain">
+            <English>Johnny Cash - The Evening Train</English>
+        </Key>
+        <Key ID="STR_GG_Music_LookOnDownFromTheBridge">
+            <English>Mazzy Star - Look On Down From The Bridge</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThisWorldIsNotMyHome">
+            <English>The Bedquilt Ramblers &amp; Ben Babbitt - This World Is Not My Home</English>
+        </Key>
+        <Key ID="STR_GG_Music_Changes">
+            <English>Charles Bradley - Changes</English>
+        </Key>
+        <Key ID="STR_GG_Music_BuryMeNotInTheLonePrairie">
+            <English>William Elliot Whitmore - Bury Me Not In the Lone Prairie</English>
+        </Key>
+        <Key ID="STR_GG_Music_Hurt">
+            <English>Johnny Cash - Hurt</English>
+        </Key>
+        <Key ID="STR_GG_Music_HopeIsADangerousThingForAWoman">
+            <English>Lana Del Rey - hope is a dangerous thing for a woman like me to have - but i have it</English>
+        </Key>
+        <Key ID="STR_GG_Music_LetItGo">
+            <English>James Bay - Let It Go</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheSoundOfSilence">
+            <English>Simon &amp; Garfunkel - The Sound of Silence</English>
+        </Key>
+        <Key ID="STR_GG_Music_Hallelujah">
+            <English>Jeff Buckley - Hallelujah</English>
+        </Key>
+        <Key ID="STR_GG_Music_SuicideIsPainless">
+            <English>Johnny Mandel - Suicide Is Painless</English>
+        </Key>
+        <Key ID="STR_GG_Music_SomewhereOverTheRainbow">
+            <English>Israel "IZ" Kamakawiwo'ole - Somewhere over the Rainbow</English>
+        </Key>
+        <Key ID="STR_GG_Music_LettertoMadeline">
+            <English>Ian Noe - Letter to Madeline</English>
+        </Key>
+
+        <!-- Ghost Two Mixtape -->
+        <Key ID="STR_GG_Music_GhostTwoMixtape">
+            <English>GhostTwoMixtape</English>
+        </Key>
+        <Key ID="STR_GG_Music_ManyMen">
+            <English>50 Cent - Many Men</English>
+        </Key>
+        <Key ID="STR_GG_Music_WhereTheHoodAt">
+            <English>DMX - Where The Hood At</English>
+        </Key>
+        <Key ID="STR_GG_Music_DoubleBaccin">
+            <English>MaxThaDemon - Double Baccin</English>
+        </Key>
+         <Key ID="STR_GG_Music_WarPigs">
+            <English>Black Sabbath - War Pigs</English>
+        </Key>
+        <Key ID="STR_GG_Music_AllAlongTheWatchtower">
+            <English>The Jimi Hendrix Experience - All Along The Watchtower</English>
+        </Key>
+        <Key ID="STR_GG_Music_BlackBetty">
+            <English>Ram Jam - Black Betty</English>
+        </Key>
+        <Key ID="STR_GG_Music_CloserToTheSun">
+            <English>Slightly Stoopid - Closer To The Sun</English>
+        </Key>
+        <Key ID="STR_GG_Music_ForWhatItsWorth">
+            <English>Buffalo Springfield - For What It's Worth</English>
+        </Key>
+        <Key ID="STR_GG_Music_ItWasntMe">
+            <English>Shaggy - It Wasn't Me</English>
+        </Key>
+        <Key ID="STR_GG_Music_Colt45">
+            <English>Afroman - Colt 45</English>
+        </Key>
+        <Key ID="STR_GG_Music_AllCanadianSurfClub">
+            <English>Tragically Hip - All Canadian Surf Club</English>
+        </Key>
+        <Key ID="STR_GG_Music_FortunateSon">
+            <English>Creedence Clearwater Revival - Fortunate Son</English>
+        </Key>
+        <Key ID="STR_GG_Music_ManInTheBox">
+            <English>Alice In Chains - Man In The Box</English>
+        </Key>
+        <Key ID="STR_GG_Music_Pisces">
+            <English>JINJER - Pisces</English>
+        </Key>
+        <Key ID="STR_GG_Music_Demolisher">
+            <English>Slaughter to Prevail - Demolisher</English>
+        </Key>
+
+        <!-- Ghost Three Mixtape -->
+        <Key ID="STR_GG_Music_GhostThreeMixtape">
+            <English>GhostThreeMixtape</English>
+        </Key>
+        <Key ID="STR_GG_Music_AreYouSureHankDoneItThisWay">
+            <English>Waylon Jennings - Are You Sure Hank Done It This Way</English>
+        </Key>
+        <Key ID="STR_GG_Music_020299">
+            <English>That Mexican OT - 02.02.99</English>
+        </Key>
+        <Key ID="STR_GG_Music_MyNameIsMud">
+            <English>Primus - My Name Is Mud</English>
+        </Key>
+        <Key ID="STR_GG_Music_DieForYou">
+            <English>The Weeknd - Die For You</English>
+        </Key>
+        <Key ID="STR_GG_Music_RealAmerican">
+            <English>Rick Derringer - RealAmerican</English>
+        </Key>
+        <Key ID="STR_GG_Music_MoneyTrees">
+            <English>Kendrick Lamar - Money Trees</English>
+        </Key>
+        <Key ID="STR_GG_Music_FuckYouBitch">
+            <English>Wheeler Walker Jr. - Fuck You Bitch</English>
+        </Key>
+        <Key ID="STR_GG_Music_KickstartMyHeart">
+            <English>Motley Crue - Kickstart My Heart</English>
+        </Key>
+        <Key ID="STR_GG_Music_WarPigs">
+            <English>Black Sabbath - War Pigs</English>
+        </Key>
+        <Key ID="STR_GG_Music_HotelLobby">
+            <English>Quavo And Takeoff - Hotel Lobby</English>
+        </Key>
+        <Key ID="STR_GG_Music_ItWasAGoodDay">
+            <English>Ice Cube - It Was A Good Day</English>
+        </Key>
+        <Key ID="STR_GG_Music_BadMoonRising">
+            <English>Creedence Clearwater Revival - Bad Moon Rising</English>
+        </Key>
+
+        <!-- Tibb's Tasteful Tracks Vol. 1 -->
+        <Key ID="STR_GG_Music_TibbsTastefulTracks">
+            <English>TibbsTastefulTracks</English>
+        </Key>
+        <Key ID="STR_GG_Music_BackInBlack">
+            <English>AC/DC - Back In Black</English>
+        </Key>
+        <Key ID="STR_GG_Music_Bandit">
+            <English>Don Oliver - Bandit</English>
+        </Key>
+        <Key ID="STR_GG_Music_PartyAndBullshit">
+            <English>Biggie Smalls - Party And Bullshit</English>
+        </Key>
+        <Key ID="STR_GG_Music_KnifeTalk">
+            <English>Drake - Knife Talk</English>
+        </Key>
+        <Key ID="STR_GG_Music_SpiritintheSky">
+            <English>Norman Greenbaum - Spirit In The Sky</English>
+        </Key>
+        <Key ID="STR_GG_Music_HereComestheSun">
+            <English>The Beetles - Here Comes the Sun</English>
+        </Key>
+        <Key ID="STR_GG_Music_Twirlanta">
+            <English>22Gz - Twirlanta</English>
+        </Key>
+        <Key ID="STR_GG_Music_Rocky">
+            <English>Weird Al - Rocky</English>
+        </Key>
+        <Key ID="STR_GG_Music_AlmostEasy">
+            <English>Avenged Sevenfold - Almost Easy</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheRubberbandMan">
+            <English>The Spinners - The Rubberband Man</English>
+        </Key>
+        <Key ID="STR_GG_Music_DancingintheMoonlight">
+            <English>King Harvest - Dancing In The Moonlight</English>
+        </Key>
+        <Key ID="STR_GG_Music_Superstition">
+            <English>Stevie Wonder - Superstition</English>
+        </Key>
+        <Key ID="STR_GG_Music_ComeandGetYourLove">
+            <English>Redbone - Come and Get Your Love</English>
+        </Key>
+        <Key ID="STR_GG_Music_ComeOutYeBlackAndTans">
+            <English>WolfeTones - Come Out Ye Black And Tans</English>
+        </Key>
+        <Key ID="STR_GG_Music_Erika">
+            <English>Kraut Music - Erika</English>
+        </Key>
+
+        <!-- A Little Trollin' -->
+        <Key ID="STR_GG_Music_ALittleTrollin">
+            <English>A Little Trollin'</English>
+        </Key>
+        <Key ID="STR_GG_Music_Way2Sexy">
+            <English>Drake - Way 2 Sexy ft. Future, Young Thug</English>
+        </Key>
+        <Key ID="STR_GG_Music_ALot">
+            <English>21 Savage - a lot ft. J. Cole</English>
+        </Key>
+        <Key ID="STR_GG_Music_MoneyTrees">
+            <English>Kendrick Lamar - Money Trees ft. KDOH The Dope Rapper, Jay ROC</English>
+        </Key>
+        <Key ID="STR_GG_Music_MiddleChild">
+            <English>J. Cole - MIDDLE CHILD</English>
+        </Key>
+        <Key ID="STR_GG_Music_GirlsWantGirls">
+            <English>Drake - Girls Want Girls ft. Lil Baby</English>
+        </Key>
+        <Key ID="STR_GG_Music_Blessings">
+            <English>Big Sean - Blessings ft. Drake, Kanye West</English>
+        </Key>
+        <Key ID="STR_GG_Music_MoneyInTheGrave">
+            <English>Drake - Money In The Grave ft. Rick Ross</English>
+        </Key>
+        <Key ID="STR_GG_Music_ThereHeGo">
+            <English>Kodak Black - There He Go</English>
+        </Key>
+        <Key ID="STR_GG_Music_Dysfunctional">
+            <English>Tech N9ne - Dysfunctional ft. Big Scoob &amp; Krizz Kaliko</English>
+        </Key>
+        <Key ID="STR_GG_Music_RicFlairDrip">
+            <English>Offset &amp; Metro Boomin - Ric Flair Drip</English>
+        </Key>
+        <Key ID="STR_GG_Music_SmackThat">
+            <English>Akon - Smack That ft. Eminem</English>
+        </Key>
+        <Key ID="STR_GG_Music_InDaClub">
+            <English>50 Cent - In Da Club</English>
+        </Key>
+        <Key ID="STR_GG_Music_ManyMen">
+            <English>50 Cent - Many Men (Wish Death)</English>
+        </Key>
+        <Key ID="STR_GG_Music_Rockstar">
+            <English>Post Malone - rockstar ft. 21 Savage</English>
+        </Key>
+        <Key ID="STR_GG_Music_KnifeTalk">
+            <English>Drake - Knife Talk ft. 21 Savage, Project Pat</English>
+        </Key>
+        <Key ID="STR_GG_Music_RapGod">
+            <English>Eminem - Rap God</English>
+        </Key>
+        <Key ID="STR_GG_Music_GoingBad">
+            <English>Meek Mill - Going Bad ft. Drake</English>
+        </Key>
+        <Key ID="STR_GG_Music_Bugatti">
+            <English>Ace Hood - Bugatti ft. Future, Rick Ross</English>
+        </Key>
+        <Key ID="STR_GG_Music_SickoMode">
+            <English>Travis Scott - SICKO MODE ft. Drake</English>
+        </Key>
+        <Key ID="STR_GG_Music_DNA">
+            <English>Kendrick Lamar - DNA.</English>
+        </Key>
+        <Key ID="STR_GG_Music_FollowGod">
+            <English>Kanye West - Follow God</English>
+        </Key>
+        <Key ID="STR_GG_Music_Heartless">
+            <English>Kanye West - Heartless</English>
+        </Key>
+        <Key ID="STR_GG_Music_LaughNowCryLater">
+            <English>Drake - Laugh Now Cry Later ft. Lil Durk</English>
+        </Key>
+        <Key ID="STR_GG_Music_TunnelVision">
+            <English>Kodak Black - Tunnel Vision</English>
+        </Key>
+        <Key ID="STR_GG_Music_LifeIsGood">
+            <English>Future - Life Is Good ft. Drake</English>
+        </Key>
+        <Key ID="STR_GG_Music_SoundtrackToMyLife">
+            <English>KiD CuDi - Soundtrack To My Life</English>
+        </Key>
+        <Key ID="STR_GG_Music_ToosieSlide">
+            <English>Drake - Toosie Slide</English>
+        </Key>
+        <Key ID="STR_GG_Music_ImSoPaid">
+            <English>Akon - I'm So Paid ft. Lil Wayne, Young Jeezy</English>
+        </Key>
+        <Key ID="STR_GG_Music_DripTooHard">
+            <English>Lil Baby x Gunna - Drip Too Hard</English>
+        </Key>
+        <Key ID="STR_GG_Music_Yeah">
+            <English>Usher - Yeah! ft. Lil Jon, Ludacris</English>
+        </Key>
+    </Package>
+</Project>

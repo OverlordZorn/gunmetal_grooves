@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GG">
+    <Package name="Compact_Discs">
+        <Key ID="STR_GG_Compact_Discs_90sRap_DisplayName">
+            <English>CD (90s Rap)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_90sRap_Description">
+            <English>A compact disc containing 90s rap songs.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_AssortedBangers_DisplayName">
+            <English>CD (Assorted Bangers)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_AssortedBangers_Description">
+            <English>A compact disc containing assorted bangers.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_GhostTwoMixtape_DisplayName">
+            <English>CD (Ghost Two Mixtape)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_GhosTwoMixtape_Description">
+            <English>A compact disc containing Ghost Two's songs.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_DisplayName">
+            <English>CD (Ghost Three Mixtape)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_Description">
+            <English>A compact disc containing Ghost Three's songs.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_TibbsTastefulTracks_DisplayName">
+            <English>CD (Tibb's Tasteful Tracks Vol. 1)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_Description">
+            <English>A compact disc containing Ghost Four's Tracks.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_Depression_DisplayName">
+            <English>CD (Depression)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_Depression_Description">
+            <English>A compact disc containing depressing songs.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_ALittleTrollin_DisplayName">
+            <English>CD (A Little Trollin')</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_ALittleTrollin_Description">
+            <English>A compact disc containing songs for a little trollin'.</English>
+        </Key>
+    </Package>
+</Project>

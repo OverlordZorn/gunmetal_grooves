@@ -1,0 +1,59 @@
+class CfgPatches
+{
+	class gg_fonts
+	{
+		name="LUCID - Fonts";
+		units[]={};
+		weapons[]={};
+		requiredVersion=2.0799999;
+		requiredAddons[]=
+		{
+			"gg_main"
+		};
+		author="$STR_GG_Main_Author";
+		authors[]={};
+		url="$STR_GG_Main_URL";
+		version=1.17;
+		versionStr="1.17.1.26";
+		versionAr[]={1,17,1,26};
+	};
+};
+class CfgFontFamilies
+{
+	class gg_fonts_VCROSDMono
+	{
+		fonts[]=
+		{
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono6",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono7",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono8",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono9",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono10",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono11",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono12",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono13",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono14",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono15",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono16",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono17",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono18",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono19",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono20",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono21",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono22",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono23",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono24",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono25",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono26",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono27",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono28",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono29",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono30",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono31",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono34",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono35",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono37",
+			"\x\gg\addons\fonts\VCROSDMono\VCROSDMono46"
+		};
+	};
+};

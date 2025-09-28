@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GG">
+    <Package name="Car_Stereo">
+        <Key ID="STR_GG_Car_Stereo_DisplayName">
+            <English>Car Stereo</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_Enabled">
+            <English>Enable Car Stereo</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_Enabled_Description">
+            <English>Enables using the stereo to play compact discs in cars.</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_OpenStereo">
+            <English>Open Car Stereo</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_CompactDiscs">
+            <English>Compact Discs</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_Eject">
+            <English>Eject</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_Insert">
+            <English>Insert</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_SrcOff">
+            <English>SRC / Off</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_BassBoost">
+            <English>Bass Boost</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_VolumeUp">
+            <English>Volume Up</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_VolumeDown">
+            <English>Volume Down</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_PreviousRewind">
+            <English>Previous / Rewind</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_NextFastForward">
+            <English>Next / Fast-forward</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_PlayPause">
+            <English>Play / Pause</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_RandomMode">
+            <English>Random Mode</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_RepeatMode">
+            <English>Repeat Mode</English>
+        </Key>
+        <Key ID="STR_GG_Car_Stereo_NoCDInventory">
+            <English>No CDs in Inventory</English>
+        </Key>
+    </Package>
+</Project>

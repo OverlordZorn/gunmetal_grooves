@@ -1,0 +1,22 @@
+{
+    "compress": {
+        "exclude": [
+        ],
+        "include": [
+        ]
+    },
+    "headers": [
+        {
+            "name": "prefix",
+            "value": "x\\gg\\addons\\fonts"
+        },
+        {
+            "name": "Mikero",
+            "value": "DePbo.dll.8.35"
+        },
+        {
+            "name": "version",
+            "value": "22093021"
+        }
+    ]
+}
