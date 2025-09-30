@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class gg_music
 	{
-		name="CIA SAC/SOG Mods - Music";
+		name="CIA SAC/gg Mods - Music";
 		units[]={};
 		weapons[]={};
 		requiredVersion=2.0799999;

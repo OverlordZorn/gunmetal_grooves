@@ -1,6 +1,6 @@
 #define COMPONENT fonts
 #define COMPONENT_BEAUTIFIED Fonts
-#include "\x\sog\addons\main\script_mod.hpp"
+#include "\x\gg\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_FONTS
 #endif
 
-#include "\x\sog\addons\main\script_macros.hpp"
+#include "\x\gg\addons\main\script_macros.hpp"
