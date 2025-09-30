@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class sog_music
+	class gg_music
 	{
 		name="CIA SAC/SOG Mods - Music";
 		units[]={};
@@ -8,11 +8,11 @@ class CfgPatches
 		requiredVersion=2.0799999;
 		requiredAddons[]=
 		{
-			"sog_main"
+			"gg_main"
 		};
-		author="$STR_sog_main_Author";
+		author="$STR_GG_Main_Author";
 		authors[]={};
-		url="$STR_sog_main_URL";
+		url="$STR_GG_Main_URL";
 		version=1.17;
 		versionStr="1.17.1.26";
 		versionAr[]={1,17,1,26};
