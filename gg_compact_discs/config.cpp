@@ -263,7 +263,7 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(Pisces, "\x\gg\addons\gg_music\GhostTwoMixtape\Pisces.ogg")
 	CREATE_SOUND_VOLUMES(Demolisher, "\x\gg\addons\gg_music\GhostTwoMixtape\Demolisher.ogg")
 	CREATE_SOUND_VOLUMES(AreYouSureHankDoneItThisWay, "\x\gg\addons\gg_music\GhostThreeMixtape\AreYouSureHankDoneItThisWay.ogg")
-	CREATE_SOUND_VOLUMES(020299, "\x\gg\addons\gg_music\GhostThreeMixtape\02.02.99.ogg")
+	CREATE_SOUND_VOLUMES(Track020299, "\x\gg\addons\gg_music\GhostThreeMixtape\02.02.99.ogg")
 	CREATE_SOUND_VOLUMES(MyNameIsMud, "\x\gg\addons\gg_music\GhostThreeMixtape\MyNameIsMud.ogg")
 	CREATE_SOUND_VOLUMES(DieForYou, "\x\gg\addons\gg_music\GhostThreeMixtape\DieForYou.ogg")
 	CREATE_SOUND_VOLUMES(RealAmerican, "\x\gg\addons\gg_music\GhostThreeMixtape\RealAmerican.ogg")
@@ -1450,7 +1450,7 @@ class CfgWeapons
 			},
 			
 			{
-				"gg_compact_discs_Hur",
+				"gg_compact_discs_Hurt",
 				"$STR_gg_music_Hurt",
 				228
 			},
@@ -1614,7 +1614,7 @@ class CfgWeapons
 			},
 			
 			{
-				"gg_compact_discs_020299",
+				"gg_compact_discs_Track020299",
 				"$STR_gg_music_020299",
 				163
 			},
