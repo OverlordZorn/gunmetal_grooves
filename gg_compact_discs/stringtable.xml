@@ -16,7 +16,7 @@
         <Key ID="STR_GG_Compact_Discs_GhostTwoMixtape_DisplayName">
             <English>CD (Ghost Two Mixtape)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhosTwoMixtape_Description">
+        <Key ID="STR_GG_Compact_Discs_GhostTwoMixtape_Description">
             <English>A compact disc containing Ghost Two's songs.</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_DisplayName">
@@ -28,8 +28,8 @@
         <Key ID="STR_GG_Compact_Discs_TibbsTastefulTracks_DisplayName">
             <English>CD (Tibb's Tasteful Tracks Vol. 1)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_Description">
-            <English>A compact disc containing Ghost Four's Tracks.</English>
+        <Key ID="STR_GG_Compact_Discs_TibbsTastefulTracks_Description">
+            <English>A compact disc containing Tibb's tasteful tracks.</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_Depression_DisplayName">
             <English>CD (Depression)</English>
