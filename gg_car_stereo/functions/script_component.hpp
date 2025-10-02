@@ -1,1 +1,1 @@
-#include "\x\gg\addons\gg_car_stereo\script_component.hpp"
+#include "\x\gg\addons\car_stereo\script_component.hpp"
