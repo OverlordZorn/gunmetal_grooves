@@ -22,21 +22,21 @@ class Extended_PreStart_EventHandlers
 {
 	class gg_car_stereo
 	{
-		init="call compileScript ['\x\gg\addons\car_stereo\XEH_preStart.sqf']";
+		init="call compileScript ['\x\gg\addons\gg_car_stereo\XEH_preStart.sqf']";
 	};
 };
 class Extended_PreInit_EventHandlers
 {
 	class gg_car_stereo
 	{
-		init="call compileScript ['\x\gg\addons\car_stereo\XEH_preInit.sqf']";
+		init="call compileScript ['\x\gg\addons\gg_car_stereo\XEH_preInit.sqf']";
 	};
 };
 class Extended_PostInit_EventHandlers
 {
 	class gg_car_stereo
 	{
-		init="call compileScript ['\x\gg\addons\car_stereo\XEH_postInit.sqf']";
+		init="call compileScript ['\x\gg\addons\gg_car_stereo\XEH_postInit.sqf']";
 	};
 };
 class CfgSounds
@@ -46,7 +46,7 @@ class CfgSounds
 		name="gg_car_stereo_beep";
 		sound[]=
 		{
-			"\x\gg\addons\car_stereo\sounds\beep.ogg",
+			"\x\gg\addons\gg_car_stereo\sounds\beep.ogg",
 			0.30000001,
 			1
 		};
@@ -65,7 +65,7 @@ class CfgVehicles
 				displayName="$STR_gg_car_stereo_DisplayName";
 				condition="call gg_car_stereo_fnc_canOpen";
 				statement="call gg_car_stereo_fnc_open";
-				icon="\x\gg\addons\car_stereo\ui\icon_stereo_ca.paa";
+				icon="\x\gg\addons\gg_car_stereo\ui\icon_stereo_ca.paa";
 			};
 		};
 	};
@@ -79,7 +79,7 @@ class CfgWeapons
 		author="$STR_GG_Main_Author";
 		displayName="";
 		descriptionShort="";
-		picture="\x\gg\addons\car_stereo\ui\cd_ca.paa";
+		picture="\x\gg\addons\gg_car_stereo\ui\cd_ca.paa";
 		scope=1;
 		gg_car_stereo_cd=1;
 		gg_car_stereo_tracks[]={};
@@ -300,7 +300,7 @@ class gg_car_stereo_dialog
 						{
 							idc=116;
 							onButtonClick="call gg_car_stereo_fnc_handleCDConfirm";
-							text="\x\gg\addons\car_stereo\ui\icon_insert_ca.paa";
+							text="\x\gg\addons\gg_car_stereo\ui\icon_insert_ca.paa";
 							tooltip="$STR_gg_car_stereo_Insert";
 							x="((710) / 2048 * ((40) * (((safezoneW / safezoneH) min 1.2) / 40)))";
 							y=0;

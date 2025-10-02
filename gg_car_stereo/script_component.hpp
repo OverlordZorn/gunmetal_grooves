@@ -1,6 +1,6 @@
 #define COMPONENT car_stereo
 #define COMPONENT_BEAUTIFIED Car Stereo
-#include "\x\gg\addons\main\script_mod.hpp"
+#include "\x\gg\addons\gg_main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,7 +14,7 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_CAR_STEREO
 #endif
 
-#include "\x\gg\addons\main\script_macros.hpp"
+#include "\x\gg\addons\gg_main\script_macros.hpp"
 
 #include "\a3\ui_f\hpp\defineResincl.inc"
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"
