@@ -13,35 +13,35 @@
         <Key ID="STR_GG_Compact_Discs_AssortedBangers_Description">
             <English>A compact disc containing assorted bangers.</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhostTwoMixtape_DisplayName">
-            <English>CD (Ghost Two Mixtape)</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeOne_DisplayName">
+            <English>CD (Mixtape One)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhostTwoMixtape_Description">
-            <English>A compact disc containing Ghost Two's songs.</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeOne_Description">
+            <English>A compact disc containing Mixtape One songs.</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_DisplayName">
-            <English>CD (Ghost Three Mixtape)</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeTwo_DisplayName">
+            <English>CD (Mixtape Two)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_GhostThreeMixtape_Description">
-            <English>A compact disc containing Ghost Three's songs.</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeTwo_Description">
+            <English>A compact disc containing Mixtape Two songs.</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_TibbsTastefulTracks_DisplayName">
-            <English>CD (Tibb's Tasteful Tracks Vol. 1)</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeFour_DisplayName">
+            <English>CD (Mixtape Four)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_TibbsTastefulTracks_Description">
-            <English>A compact disc containing Tibb's tasteful tracks.</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeFour_Description">
+            <English>A compact disc containing Mixtape Four songs.</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_SadBoiHours_DisplayName">
             <English>CD (SadBoiHours)</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_SadBoiHours_Description">
-            <English>A compact disc containing depressing songs.</English>
+            <English>A compact disc Sad Boi Hours songs.</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_ALittleTrollin_DisplayName">
-            <English>CD (A Little Trollin')</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeThree_DisplayName">
+            <English>CD (Mixtape Three)</English>
         </Key>
-        <Key ID="STR_GG_Compact_Discs_ALittleTrollin_Description">
-            <English>A compact disc containing songs for a little trollin'.</English>
+        <Key ID="STR_GG_Compact_Discs_MixtapeThree_Description">
+            <English>A compact disc containing songs for Mixtape Three.</English>
         </Key>
     </Package>
 </Project>

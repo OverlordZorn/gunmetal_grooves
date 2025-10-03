@@ -556,9 +556,9 @@
             <English>Ian Noe - Letter to Madeline</English>
         </Key>
 
-        <!-- Ghost Two Mixtape -->
-        <Key ID="STR_GG_Music_GhostTwoMixtape">
-            <English>GhostTwoMixtape</English>
+        <!-- Mixtape One -->
+        <Key ID="STR_GG_Music_MixtapeOne">
+            <English>MixtapeOne</English>
         </Key>
         <Key ID="STR_GG_Music_ManyMen">
             <English>50 Cent - Many Men</English>
@@ -607,8 +607,8 @@
         </Key>
 
         <!-- Ghost Three Mixtape -->
-        <Key ID="STR_GG_Music_GhostThreeMixtape">
-            <English>GhostThreeMixtape</English>
+        <Key ID="STR_GG_Music_MixtapeTwo">
+            <English>MixtapeTwo</English>
         </Key>
         <Key ID="STR_GG_Music_AreYouSureHankDoneItThisWay">
             <English>Waylon Jennings - Are You Sure Hank Done It This Way</English>
@@ -647,9 +647,9 @@
             <English>Creedence Clearwater Revival - Bad Moon Rising</English>
         </Key>
 
-        <!-- Tibb's Tasteful Tracks Vol. 1 -->
-        <Key ID="STR_GG_Music_TibbsTastefulTracks">
-            <English>TibbsTastefulTracks</English>
+        <!-- Mixtape Four  -->
+        <Key ID="STR_GG_Music_MixtapeFour">
+            <English>MixtapeFour</English>
         </Key>
         <Key ID="STR_GG_Music_BackInBlack">
             <English>AC/DC - Back In Black</English>
@@ -790,6 +790,41 @@
         </Key>
         <Key ID="STR_GG_Music_Yeah">
             <English>Usher - Yeah! ft. Lil Jon, Ludacris</English>
+        </Key>
+    
+    <!-- Eastern Defiance Megamix -->
+        <Key ID="STR_GG_Music_EasternDefianceMegamix">
+            <English>Eastern Defiance Megamix</English>
+        </Key>
+        <Key ID="STR_GG_Music_AriseBelgorod">
+            <English>Arise Belgorod</English>
+        </Key>
+        <Key ID="STR_GG_Music_ACossackRodeAcrosstheDenude">
+            <English>Gruppa Express - A Cossack Rode Across the Denude</English>
+        </Key>
+        <Key ID="STR_GG_Music_DibDubSnop">
+            <English>M8L8TH - Dib Dub Snop</English>
+        </Key>
+        <Key ID="STR_GG_Music_StormOverAzov">
+            <English>M8L8TH - Storm Ove rAzov</English>
+        </Key>
+        <Key ID="STR_GG_Music_VPlenu">
+            <English>Mika Newton - V Plenu</English>
+        </Key>
+        <Key ID="STR_GG_Music_FPVtoVolchanski">
+            <English>Nezhegol - FPV to Volchanski</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheLastStand">
+            <English>Sabaton - The Last Stand</English>
+        </Key>
+        <Key ID="STR_GG_Music_Cassette">
+            <English>Sad Svit - Cassette</English>
+        </Key>
+        <Key ID="STR_GG_Music_Ragnarok">
+            <English>Seitar - Ragnarok</English>
+        </Key>
+        <Key ID="STR_GG_Music_SleepGuys">
+            <English>Yaroslav Rudenko - Sleep, Guys</English>
         </Key>
     </Package>
 </Project>

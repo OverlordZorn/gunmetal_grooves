@@ -10,19 +10,19 @@ class CfgPatches
 			"gg_compact_discs_90sRap",
 			"gg_compact_discs_AssortedBangers",
 			"gg_compact_discs_SadBoiHours",
-			"gg_compact_discs_GhostTwoMixtape",
-			"gg_compact_discs_GhostThreeMixtape",
-			"gg_compact_discs_ALittleTrollin"
+			"gg_compact_discs_MixtapeOne",
+			"gg_compact_discs_MixtapeTwo",
+			"gg_compact_discs_MixtapeThree"
 		};
 		weapons[]=
 		{
 			"gg_compact_discs_90sRap",
 			"gg_compact_discs_AssortedBangers",
 			"gg_compact_discs_SadBoiHours",
-			"gg_compact_discs_GhostTwoMixtape",
-			"gg_compact_discs_GhostThreeMixtape",
-			"gg_compact_discs_ALittleTrollin",
-			"gg_compact_discs_TibbsTastefulTracks"
+			"gg_compact_discs_MixtapeOne",
+			"gg_compact_discs_MixtapeTwo",
+			"gg_compact_discs_MixtapeThree",
+			"gg_compact_discs_MixtapeFour"
 		};
 		requiredVersion=2.0799999;
 		requiredAddons[]=
@@ -220,81 +220,92 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(SuicideIsPainless, "\x\gg\addons\gg_music\SadBoiHours\SuicideIsPainless.ogg")
 	CREATE_SOUND_VOLUMES(SomewhereOverTheRainbow, "\x\gg\addons\gg_music\SadBoiHours\SomewhereOverTheRainbow.ogg")
 	CREATE_SOUND_VOLUMES(LettertoMadeline, "\x\gg\addons\gg_music\SadBoiHours\LettertoMadeline.ogg")
-	CREATE_SOUND_VOLUMES(Way2Sexy, "\x\gg\addons\gg_music\ALittleTrollin\Way2Sexy.ogg")
-	CREATE_SOUND_VOLUMES(ALot, "\x\gg\addons\gg_music\ALittleTrollin\ALot.ogg")
-	CREATE_SOUND_VOLUMES(MoneyTrees, "\x\gg\addons\gg_music\ALittleTrollin\MoneyTrees.ogg")
-	CREATE_SOUND_VOLUMES(MiddleChild, "\x\gg\addons\gg_music\ALittleTrollin\MiddleChild.ogg")
-	CREATE_SOUND_VOLUMES(GirlsWantGirls, "\x\gg\addons\gg_music\ALittleTrollin\GirlsWantGirls.ogg")
-	CREATE_SOUND_VOLUMES(Blessings, "\x\gg\addons\gg_music\ALittleTrollin\Blessings.ogg")
-	CREATE_SOUND_VOLUMES(MoneyInTheGrave, "\x\gg\addons\gg_music\ALittleTrollin\MoneyInTheGrave.ogg")
-	CREATE_SOUND_VOLUMES(ThereHeGo, "\x\gg\addons\gg_music\ALittleTrollin\ThereHeGo.ogg")
-	CREATE_SOUND_VOLUMES(Dysfunctional, "\x\gg\addons\gg_music\ALittleTrollin\Dysfunctional.ogg")
-	CREATE_SOUND_VOLUMES(RicFlairDrip, "\x\gg\addons\gg_music\ALittleTrollin\RicFlairDrip.ogg")
-	CREATE_SOUND_VOLUMES(SmackThat, "\x\gg\addons\gg_music\ALittleTrollin\SmackThat.ogg")
-	CREATE_SOUND_VOLUMES(InDaClub, "\x\gg\addons\gg_music\ALittleTrollin\InDaClub.ogg")
-	CREATE_SOUND_VOLUMES(ManyMen, "\x\gg\addons\gg_music\ALittleTrollin\ManyMen.ogg")
-	CREATE_SOUND_VOLUMES(Rockstar, "\x\gg\addons\gg_music\ALittleTrollin\Rockstar.ogg")
-	CREATE_SOUND_VOLUMES(KnifeTalk, "\x\gg\addons\gg_music\ALittleTrollin\KnifeTalk.ogg")
-	CREATE_SOUND_VOLUMES(RapGod, "\x\gg\addons\gg_music\ALittleTrollin\RapGod.ogg")
-	CREATE_SOUND_VOLUMES(GoingBad, "\x\gg\addons\gg_music\ALittleTrollin\GoingBad.ogg")
-	CREATE_SOUND_VOLUMES(Bugatti, "\x\gg\addons\gg_music\ALittleTrollin\Bugatti.ogg")
-	CREATE_SOUND_VOLUMES(SickoMode, "\x\gg\addons\gg_music\ALittleTrollin\SickoMode.ogg")
-	CREATE_SOUND_VOLUMES(DNA, "\x\gg\addons\gg_music\ALittleTrollin\DNA.ogg")
-	CREATE_SOUND_VOLUMES(FollowGod, "\x\gg\addons\gg_music\ALittleTrollin\FollowGod.ogg")
-	CREATE_SOUND_VOLUMES(Heartless, "\x\gg\addons\gg_music\ALittleTrollin\Heartless.ogg")
-	CREATE_SOUND_VOLUMES(LaughNowCryLater, "\x\gg\addons\gg_music\ALittleTrollin\LaughNowCryLater.ogg")
-	CREATE_SOUND_VOLUMES(TunnelVision, "\x\gg\addons\gg_music\ALittleTrollin\TunnelVision.ogg")
-	CREATE_SOUND_VOLUMES(LifeIsGood, "\x\gg\addons\gg_music\ALittleTrollin\LifeIsGood.ogg")
-	CREATE_SOUND_VOLUMES(SoundtrackToMyLife, "\x\gg\addons\gg_music\ALittleTrollin\SoundtrackToMyLife.ogg")
-	CREATE_SOUND_VOLUMES(ToosieSlide, "\x\gg\addons\gg_music\ALittleTrollin\ToosieSlide.ogg")
-	CREATE_SOUND_VOLUMES(ImSoPaid, "\x\gg\addons\gg_music\ALittleTrollin\ImSoPaid.ogg")
-	CREATE_SOUND_VOLUMES(DripTooHard, "\x\gg\addons\gg_music\ALittleTrollin\DripTooHard.ogg")
-	CREATE_SOUND_VOLUMES(Yeah, "\x\gg\addons\gg_music\ALittleTrollin\Yeah.ogg")
-	CREATE_SOUND_VOLUMES(WhereTheHoodAt, "\x\gg\addons\gg_music\GhostTwoMixtape\WhereTheHoodAt.ogg")
-	CREATE_SOUND_VOLUMES(DoubleBaccin, "\x\gg\addons\gg_music\GhostTwoMixtape\DoubleBaccin.ogg")
-	CREATE_SOUND_VOLUMES(BlackBetty, "\x\gg\addons\gg_music\GhostTwoMixtape\BlackBetty.ogg")
-	CREATE_SOUND_VOLUMES(CloserToTheSun, "\x\gg\addons\gg_music\GhostTwoMixtape\CloserToTheSun.ogg")
-	CREATE_SOUND_VOLUMES(ForWhatItsWorth, "\x\gg\addons\gg_music\GhostTwoMixtape\ForWhatItsWorth.ogg")
-	CREATE_SOUND_VOLUMES(ItWasntMe, "\x\gg\addons\gg_music\GhostTwoMixtape\ItWasntMe.ogg")
-	CREATE_SOUND_VOLUMES(Colt45, "\x\gg\addons\gg_music\GhostTwoMixtape\Colt45.ogg")
-	CREATE_SOUND_VOLUMES(AllCanadianSurfClub, "\x\gg\addons\gg_music\GhostTwoMixtape\AllCanadianSurfClub.ogg")
-	CREATE_SOUND_VOLUMES(FortunateSon, "\x\gg\addons\gg_music\GhostTwoMixtape\FortunateSon.ogg")
-	CREATE_SOUND_VOLUMES(ManInTheBox, "\x\gg\addons\gg_music\GhostTwoMixtape\ManInTheBox.ogg")
-	CREATE_SOUND_VOLUMES(Pisces, "\x\gg\addons\gg_music\GhostTwoMixtape\Pisces.ogg")
-	CREATE_SOUND_VOLUMES(Demolisher, "\x\gg\addons\gg_music\GhostTwoMixtape\Demolisher.ogg")
-	CREATE_SOUND_VOLUMES(AreYouSureHankDoneItThisWay, "\x\gg\addons\gg_music\GhostThreeMixtape\AreYouSureHankDoneItThisWay.ogg")
-	CREATE_SOUND_VOLUMES(Track020299, "\x\gg\addons\gg_music\GhostThreeMixtape\02.02.99.ogg")
-	CREATE_SOUND_VOLUMES(MyNameIsMud, "\x\gg\addons\gg_music\GhostThreeMixtape\MyNameIsMud.ogg")
-	CREATE_SOUND_VOLUMES(DieForYou, "\x\gg\addons\gg_music\GhostThreeMixtape\DieForYou.ogg")
-	CREATE_SOUND_VOLUMES(RealAmerican, "\x\gg\addons\gg_music\GhostThreeMixtape\RealAmerican.ogg")
-	CREATE_SOUND_VOLUMES(FuckYouBitch, "\x\gg\addons\gg_music\GhostThreeMixtape\FuckYouBitch.ogg")
-	CREATE_SOUND_VOLUMES(KickstartMyHeart, "\x\gg\addons\gg_music\GhostThreeMixtape\KickstartMyHeart.ogg")
-	CREATE_SOUND_VOLUMES(HotelLobby, "\x\gg\addons\gg_music\GhostThreeMixtape\HotelLobby.ogg")
-	CREATE_SOUND_VOLUMES(BadMoonRising, "\x\gg\addons\gg_music\GhostThreeMixtape\BadMoonRising.ogg")
-	CREATE_SOUND_VOLUMES(BackInBlack, "\x\gg\addons\gg_music\TibbsTastefulTracks\BackInBlack.ogg")
-	CREATE_SOUND_VOLUMES(Bandit, "\x\gg\addons\gg_music\TibbsTastefulTracks\Bandit.ogg")
-	CREATE_SOUND_VOLUMES(PartyandBullshit, "\x\gg\addons\gg_music\TibbsTastefulTracks\PartyandBullshit.ogg")
-	CREATE_SOUND_VOLUMES(SpiritintheSky, "\x\gg\addons\gg_music\TibbsTastefulTracks\SpiritintheSky.ogg")
-	CREATE_SOUND_VOLUMES(HereComesTheSun, "\x\gg\addons\gg_music\TibbsTastefulTracks\HereComesTheSun.ogg")
-	CREATE_SOUND_VOLUMES(Twirlanta, "\x\gg\addons\gg_music\TibbsTastefulTracks\Twirlanta.ogg")
-	CREATE_SOUND_VOLUMES(Rocky, "\x\gg\addons\gg_music\TibbsTastefulTracks\Rocky.ogg")
-	CREATE_SOUND_VOLUMES(AlmostEasy, "\x\gg\addons\gg_music\TibbsTastefulTracks\AlmostEasy.ogg")
-	CREATE_SOUND_VOLUMES(TheRubberbandMan, "\x\gg\addons\gg_music\TibbsTastefulTracks\TheRubberbandMan.ogg")
-	CREATE_SOUND_VOLUMES(DancingintheMoonlight, "\x\gg\addons\gg_music\TibbsTastefulTracks\DancingintheMoonlight.ogg")
-	CREATE_SOUND_VOLUMES(Superstition, "\x\gg\addons\gg_music\TibbsTastefulTracks\Superstition.ogg")
-	CREATE_SOUND_VOLUMES(ComeOutYeBlackAndTans, "\x\gg\addons\gg_music\TibbsTastefulTracks\ComeOutYeBlackAndTans.ogg")
-	CREATE_SOUND_VOLUMES(Erika, "\x\gg\addons\gg_music\TibbsTastefulTracks\Erika.ogg")
+	CREATE_SOUND_VOLUMES(Way2Sexy, "\x\gg\addons\gg_music\MixtapeThree\Way2Sexy.ogg")
+	CREATE_SOUND_VOLUMES(ALot, "\x\gg\addons\gg_music\MixtapeThree\ALot.ogg")
+	CREATE_SOUND_VOLUMES(MoneyTrees, "\x\gg\addons\gg_music\MixtapeThree\MoneyTrees.ogg")
+	CREATE_SOUND_VOLUMES(MiddleChild, "\x\gg\addons\gg_music\MixtapeThree\MiddleChild.ogg")
+	CREATE_SOUND_VOLUMES(GirlsWantGirls, "\x\gg\addons\gg_music\MixtapeThree\GirlsWantGirls.ogg")
+	CREATE_SOUND_VOLUMES(Blessings, "\x\gg\addons\gg_music\MixtapeThree\Blessings.ogg")
+	CREATE_SOUND_VOLUMES(MoneyInTheGrave, "\x\gg\addons\gg_music\MixtapeThree\MoneyInTheGrave.ogg")
+	CREATE_SOUND_VOLUMES(ThereHeGo, "\x\gg\addons\gg_music\MixtapeThree\ThereHeGo.ogg")
+	CREATE_SOUND_VOLUMES(Dysfunctional, "\x\gg\addons\gg_music\MixtapeThree\Dysfunctional.ogg")
+	CREATE_SOUND_VOLUMES(RicFlairDrip, "\x\gg\addons\gg_music\MixtapeThree\RicFlairDrip.ogg")
+	CREATE_SOUND_VOLUMES(SmackThat, "\x\gg\addons\gg_music\MixtapeThree\SmackThat.ogg")
+	CREATE_SOUND_VOLUMES(InDaClub, "\x\gg\addons\gg_music\MixtapeThree\InDaClub.ogg")
+	CREATE_SOUND_VOLUMES(ManyMen, "\x\gg\addons\gg_music\MixtapeThree\ManyMen.ogg")
+	CREATE_SOUND_VOLUMES(Rockstar, "\x\gg\addons\gg_music\MixtapeThree\Rockstar.ogg")
+	CREATE_SOUND_VOLUMES(KnifeTalk, "\x\gg\addons\gg_music\MixtapeThree\KnifeTalk.ogg")
+	CREATE_SOUND_VOLUMES(RapGod, "\x\gg\addons\gg_music\MixtapeThree\RapGod.ogg")
+	CREATE_SOUND_VOLUMES(GoingBad, "\x\gg\addons\gg_music\MixtapeThree\GoingBad.ogg")
+	CREATE_SOUND_VOLUMES(Bugatti, "\x\gg\addons\gg_music\MixtapeThree\Bugatti.ogg")
+	CREATE_SOUND_VOLUMES(SickoMode, "\x\gg\addons\gg_music\MixtapeThree\SickoMode.ogg")
+	CREATE_SOUND_VOLUMES(DNA, "\x\gg\addons\gg_music\MixtapeThree\DNA.ogg")
+	CREATE_SOUND_VOLUMES(FollowGod, "\x\gg\addons\gg_music\MixtapeThree\FollowGod.ogg")
+	CREATE_SOUND_VOLUMES(Heartless, "\x\gg\addons\gg_music\MixtapeThree\Heartless.ogg")
+	CREATE_SOUND_VOLUMES(LaughNowCryLater, "\x\gg\addons\gg_music\MixtapeThree\LaughNowCryLater.ogg")
+	CREATE_SOUND_VOLUMES(TunnelVision, "\x\gg\addons\gg_music\MixtapeThree\TunnelVision.ogg")
+	CREATE_SOUND_VOLUMES(LifeIsGood, "\x\gg\addons\gg_music\MixtapeThree\LifeIsGood.ogg")
+	CREATE_SOUND_VOLUMES(SoundtrackToMyLife, "\x\gg\addons\gg_music\MixtapeThree\SoundtrackToMyLife.ogg")
+	CREATE_SOUND_VOLUMES(ToosieSlide, "\x\gg\addons\gg_music\MixtapeThree\ToosieSlide.ogg")
+	CREATE_SOUND_VOLUMES(ImSoPaid, "\x\gg\addons\gg_music\MixtapeThree\ImSoPaid.ogg")
+	CREATE_SOUND_VOLUMES(DripTooHard, "\x\gg\addons\gg_music\MixtapeThree\DripTooHard.ogg")
+	CREATE_SOUND_VOLUMES(Yeah, "\x\gg\addons\gg_music\MixtapeThree\Yeah.ogg")
+	CREATE_SOUND_VOLUMES(WhereTheHoodAt, "\x\gg\addons\gg_music\MixtapeOne\WhereTheHoodAt.ogg")
+	CREATE_SOUND_VOLUMES(DoubleBaccin, "\x\gg\addons\gg_music\MixtapeOne\DoubleBaccin.ogg")
+	CREATE_SOUND_VOLUMES(BlackBetty, "\x\gg\addons\gg_music\MixtapeOne\BlackBetty.ogg")
+	CREATE_SOUND_VOLUMES(CloserToTheSun, "\x\gg\addons\gg_music\MixtapeOne\CloserToTheSun.ogg")
+	CREATE_SOUND_VOLUMES(ForWhatItsWorth, "\x\gg\addons\gg_music\MixtapeOne\ForWhatItsWorth.ogg")
+	CREATE_SOUND_VOLUMES(ItWasntMe, "\x\gg\addons\gg_music\MixtapeOne\ItWasntMe.ogg")
+	CREATE_SOUND_VOLUMES(Colt45, "\x\gg\addons\gg_music\MixtapeOne\Colt45.ogg")
+	CREATE_SOUND_VOLUMES(AllCanadianSurfClub, "\x\gg\addons\gg_music\MixtapeOne\AllCanadianSurfClub.ogg")
+	CREATE_SOUND_VOLUMES(FortunateSon, "\x\gg\addons\gg_music\MixtapeOne\FortunateSon.ogg")
+	CREATE_SOUND_VOLUMES(ManInTheBox, "\x\gg\addons\gg_music\MixtapeOne\ManInTheBox.ogg")
+	CREATE_SOUND_VOLUMES(Pisces, "\x\gg\addons\gg_music\MixtapeOne\Pisces.ogg")
+	CREATE_SOUND_VOLUMES(Demolisher, "\x\gg\addons\gg_music\MixtapeOne\Demolisher.ogg")
+	CREATE_SOUND_VOLUMES(AreYouSureHankDoneItThisWay, "\x\gg\addons\gg_music\MixtapeTwo\AreYouSureHankDoneItThisWay.ogg")
+	CREATE_SOUND_VOLUMES(Track020299, "\x\gg\addons\gg_music\MixtapeTwo\02.02.99.ogg")
+	CREATE_SOUND_VOLUMES(MyNameIsMud, "\x\gg\addons\gg_music\MixtapeTwo\MyNameIsMud.ogg")
+	CREATE_SOUND_VOLUMES(DieForYou, "\x\gg\addons\gg_music\MixtapeTwo\DieForYou.ogg")
+	CREATE_SOUND_VOLUMES(RealAmerican, "\x\gg\addons\gg_music\MixtapeTwo\RealAmerican.ogg")
+	CREATE_SOUND_VOLUMES(FuckYouBitch, "\x\gg\addons\gg_music\MixtapeTwo\FuckYouBitch.ogg")
+	CREATE_SOUND_VOLUMES(KickstartMyHeart, "\x\gg\addons\gg_music\MixtapeTwo\KickstartMyHeart.ogg")
+	CREATE_SOUND_VOLUMES(HotelLobby, "\x\gg\addons\gg_music\MixtapeTwo\HotelLobby.ogg")
+	CREATE_SOUND_VOLUMES(BadMoonRising, "\x\gg\addons\gg_music\MixtapeTwo\BadMoonRising.ogg")
+	CREATE_SOUND_VOLUMES(BackInBlack, "\x\gg\addons\gg_music\MixtapeFour\BackInBlack.ogg")
+	CREATE_SOUND_VOLUMES(Bandit, "\x\gg\addons\gg_music\MixtapeFour\Bandit.ogg")
+	CREATE_SOUND_VOLUMES(PartyandBullshit, "\x\gg\addons\gg_music\MixtapeFour\PartyandBullshit.ogg")
+	CREATE_SOUND_VOLUMES(SpiritintheSky, "\x\gg\addons\gg_music\MixtapeFour\SpiritintheSky.ogg")
+	CREATE_SOUND_VOLUMES(HereComesTheSun, "\x\gg\addons\gg_music\MixtapeFour\HereComesTheSun.ogg")
+	CREATE_SOUND_VOLUMES(Twirlanta, "\x\gg\addons\gg_music\MixtapeFour\Twirlanta.ogg")
+	CREATE_SOUND_VOLUMES(Rocky, "\x\gg\addons\gg_music\MixtapeFour\Rocky.ogg")
+	CREATE_SOUND_VOLUMES(AlmostEasy, "\x\gg\addons\gg_music\MixtapeFour\AlmostEasy.ogg")
+	CREATE_SOUND_VOLUMES(TheRubberbandMan, "\x\gg\addons\gg_music\MixtapeFour\TheRubberbandMan.ogg")
+	CREATE_SOUND_VOLUMES(DancingintheMoonlight, "\x\gg\addons\gg_music\MixtapeFour\DancingintheMoonlight.ogg")
+	CREATE_SOUND_VOLUMES(Superstition, "\x\gg\addons\gg_music\MixtapeFour\Superstition.ogg")
+	CREATE_SOUND_VOLUMES(ComeOutYeBlackAndTans, "\x\gg\addons\gg_music\MixtapeFour\ComeOutYeBlackAndTans.ogg")
+	CREATE_SOUND_VOLUMES(Erika, "\x\gg\addons\gg_music\MixtapeFour\Erika.ogg")
+	CREATE_SOUND_VOLUMES(AriseBelgorod, "\x\gg\addons\gg_music\EasternDefianceMegamix\AriseBelgorod.ogg")
+	CREATE_SOUND_VOLUMES(ACossackRodeAcrosstheDenude, "\x\gg\addons\gg_music\EasternDefianceMegamix\ACossackRodeAcrosstheDenude.ogg")
+	CREATE_SOUND_VOLUMES(DibDubSnop, "\x\gg\addons\gg_music\EasternDefianceMegamix\DibDubSnop.ogg")
+	CREATE_SOUND_VOLUMES(StormOverAzov, "\x\gg\addons\gg_music\EasternDefianceMegamix\StormOverAzov.ogg")
+	CREATE_SOUND_VOLUMES(VPlenu, "\x\gg\addons\gg_music\EasternDefianceMegamix\VPlenu.ogg")
+	CREATE_SOUND_VOLUMES(FPVtoVolchanski, "\x\gg\addons\gg_music\EasternDefianceMegamix\FPVtoVolchanski.ogg")
+	CREATE_SOUND_VOLUMES(TheLastStand, "\x\gg\addons\gg_music\EasternDefianceMegamix\TheLastStand.ogg")
+	CREATE_SOUND_VOLUMES(Cassette, "\x\gg\addons\gg_music\EasternDefianceMegamix\Cassette.ogg")
+	CREATE_SOUND_VOLUMES(Ragnarok, "\x\gg\addons\gg_music\EasternDefianceMegamix\Ragnarok.ogg")
+	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\SleepGuys.ogg")
 };
 class CfgVehicles
 {
 	class Item_Base_F;
 	CREATE_DISC_ITEM(90sRap)
 	CREATE_DISC_ITEM(AssortedBangers)
-	CREATE_DISC_ITEM(GhostTwoMixtape)
-	CREATE_DISC_ITEM(GhostThreeMixtape)
+	CREATE_DISC_ITEM(MixtapeOne)
+	CREATE_DISC_ITEM(MixtapeTwo)
 	CREATE_DISC_ITEM(SadBoiHours)
-	CREATE_DISC_ITEM(ALittleTrollin)
-	CREATE_DISC_ITEM(TibbsTastefulTracks)
+	CREATE_DISC_ITEM(MixtapeThree)
+	CREATE_DISC_ITEM(MixtapeFour)
+	CREATE_DISC_ITEM(EasternDefianceMegamix)
 };
 class CfgWeapons
 {
@@ -485,7 +496,7 @@ class CfgWeapons
 		ADD_TRACK(SomewhereOverTheRainbow, 210),
 		ADD_TRACK(LettertoMadeline, 471)
 	CREATE_DISC_WEAPON_FOOTER()
-	CREATE_DISC_WEAPON_HEADER(GhostTwoMixtape)
+	CREATE_DISC_WEAPON_HEADER(MixtapeOne)
 		ADD_TRACK(ManyMen, 246),
 		ADD_TRACK(WhereTheHoodAt, 286),
 		ADD_TRACK(DoubleBaccin, 135),
@@ -502,7 +513,7 @@ class CfgWeapons
 		ADD_TRACK(Pisces, 305),
 		ADD_TRACK(Demolisher, 219)
 	CREATE_DISC_WEAPON_FOOTER()
-	CREATE_DISC_WEAPON_HEADER(GhostThreeMixtape)
+	CREATE_DISC_WEAPON_HEADER(MixtapeTwo)
 		ADD_TRACK(AreYouSureHankDoneItThisWay, 175),
 		ADD_TRACK(Track020299, 163),
 		ADD_TRACK(MyNameIsMud, 283),
@@ -516,7 +527,7 @@ class CfgWeapons
 		ADD_TRACK(ItWasAGoodDay, 260),
 		ADD_TRACK(BadMoonRising, 138)
 	CREATE_DISC_WEAPON_FOOTER()
-	CREATE_DISC_WEAPON_HEADER(TibbsTastefulTracks)
+	CREATE_DISC_WEAPON_HEADER(MixtapeFour)
 		ADD_TRACK(BackInBlack, 253),
 		ADD_TRACK(Bandit, 149),
 		ADD_TRACK(PartyAndBullshit, 221),
@@ -533,7 +544,7 @@ class CfgWeapons
 		ADD_TRACK(ComeOutYeBlackAndTans, 184),
 		ADD_TRACK(Erika, 178)
 	CREATE_DISC_WEAPON_FOOTER()
-	CREATE_DISC_WEAPON_HEADER(ALittleTrollin)
+	CREATE_DISC_WEAPON_HEADER(MixtapeThree)
 		ADD_TRACK(Way2Sexy, 258),
 		ADD_TRACK(ALot, 288),
 		ADD_TRACK(MoneyTrees, 388),
@@ -564,5 +575,17 @@ class CfgWeapons
 		ADD_TRACK(ImSoPaid, 263),
 		ADD_TRACK(DripTooHard, 146),
 		ADD_TRACK(Yeah, 252)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(EasternDefianceMegamix)
+		ADD_TRACK(AriseBelgorod, 164),
+		ADD_TRACK(ACossackRodeAcrosstheDenude, 212),
+		ADD_TRACK(DibDubSnop, 368),
+		ADD_TRACK(StormOverAzov, 454),
+		ADD_TRACK(VPlenu, 240),
+		ADD_TRACK(FPVtoVolchanski, 233),
+		ADD_TRACK(TheLastStand, 238),
+		ADD_TRACK(Cassette, 144),
+		ADD_TRACK(Ragnarok, 237),
+		ADD_TRACK(SleepGuys, 158),
 	CREATE_DISC_WEAPON_FOOTER()
 };
