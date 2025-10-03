@@ -9,7 +9,7 @@ class CfgPatches
 		{
 			"gg_compact_discs_90sRap",
 			"gg_compact_discs_AssortedBangers",
-			"gg_compact_discs_Depression",
+			"gg_compact_discs_SadBoiHours",
 			"gg_compact_discs_GhostTwoMixtape",
 			"gg_compact_discs_GhostThreeMixtape",
 			"gg_compact_discs_ALittleTrollin"
@@ -18,7 +18,7 @@ class CfgPatches
 		{
 			"gg_compact_discs_90sRap",
 			"gg_compact_discs_AssortedBangers",
-			"gg_compact_discs_Depression",
+			"gg_compact_discs_SadBoiHours",
 			"gg_compact_discs_GhostTwoMixtape",
 			"gg_compact_discs_GhostThreeMixtape",
 			"gg_compact_discs_ALittleTrollin",
@@ -206,20 +206,20 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(Badlands, "\x\gg\addons\gg_music\AssortedBangers\Badlands.ogg")
 	CREATE_SOUND_VOLUMES(MoonsOfNeptune, "\x\gg\addons\gg_music\AssortedBangers\MoonsOfNeptune.ogg")
 	CREATE_SOUND_VOLUMES(TheMan, "\x\gg\addons\gg_music\AssortedBangers\TheMan.ogg")
-	CREATE_SOUND_VOLUMES(MadWorld, "\x\gg\addons\gg_music\Depression\MadWorld.ogg")
-	CREATE_SOUND_VOLUMES(TheEveningTrain, "\x\gg\addons\gg_music\Depression\TheEveningTrain.ogg")
-	CREATE_SOUND_VOLUMES(LookOnDownFromTheBridge, "\x\gg\addons\gg_music\Depression\LookOnDownFromTheBridge.ogg")
-	CREATE_SOUND_VOLUMES(ThisWorldIsNotMyHome, "\x\gg\addons\gg_music\Depression\ThisWorldIsNotMyHome.ogg")
-	CREATE_SOUND_VOLUMES(Changes, "\x\gg\addons\gg_music\Depression\Changes.ogg")
-	CREATE_SOUND_VOLUMES(BuryMeNotInTheLonePrairie, "\x\gg\addons\gg_music\Depression\BuryMeNotInTheLonePrairie.ogg")
-	CREATE_SOUND_VOLUMES(Hurt, "\x\gg\addons\gg_music\Depression\Hurt.ogg")
-	CREATE_SOUND_VOLUMES(HopeIsADangerousThingForAWoman, "\x\gg\addons\gg_music\Depression\HopeIsADangerousThingForAWoman.ogg")
-	CREATE_SOUND_VOLUMES(LetItGo, "\x\gg\addons\gg_music\Depression\LetItGo.ogg")
-	CREATE_SOUND_VOLUMES(TheSoundOfSilence, "\x\gg\addons\gg_music\Depression\TheSoundOfSilence.ogg")
-	CREATE_SOUND_VOLUMES(Hallelujah, "\x\gg\addons\gg_music\Depression\Hallelujah.ogg")
-	CREATE_SOUND_VOLUMES(SuicideIsPainless, "\x\gg\addons\gg_music\Depression\SuicideIsPainless.ogg")
-	CREATE_SOUND_VOLUMES(SomewhereOverTheRainbow, "\x\gg\addons\gg_music\Depression\SomewhereOverTheRainbow.ogg")
-	CREATE_SOUND_VOLUMES(LettertoMadeline, "\x\gg\addons\gg_music\Depression\LettertoMadeline.ogg")
+	CREATE_SOUND_VOLUMES(MadWorld, "\x\gg\addons\gg_music\SadBoiHours\MadWorld.ogg")
+	CREATE_SOUND_VOLUMES(TheEveningTrain, "\x\gg\addons\gg_music\SadBoiHours\TheEveningTrain.ogg")
+	CREATE_SOUND_VOLUMES(LookOnDownFromTheBridge, "\x\gg\addons\gg_music\SadBoiHours\LookOnDownFromTheBridge.ogg")
+	CREATE_SOUND_VOLUMES(ThisWorldIsNotMyHome, "\x\gg\addons\gg_music\SadBoiHours\ThisWorldIsNotMyHome.ogg")
+	CREATE_SOUND_VOLUMES(Changes, "\x\gg\addons\gg_music\SadBoiHours\Changes.ogg")
+	CREATE_SOUND_VOLUMES(BuryMeNotInTheLonePrairie, "\x\gg\addons\gg_music\SadBoiHours\BuryMeNotInTheLonePrairie.ogg")
+	CREATE_SOUND_VOLUMES(Hurt, "\x\gg\addons\gg_music\SadBoiHours\Hurt.ogg")
+	CREATE_SOUND_VOLUMES(HopeIsADangerousThingForAWoman, "\x\gg\addons\gg_music\SadBoiHours\HopeIsADangerousThingForAWoman.ogg")
+	CREATE_SOUND_VOLUMES(LetItGo, "\x\gg\addons\gg_music\SadBoiHours\LetItGo.ogg")
+	CREATE_SOUND_VOLUMES(TheSoundOfSilence, "\x\gg\addons\gg_music\SadBoiHours\TheSoundOfSilence.ogg")
+	CREATE_SOUND_VOLUMES(Hallelujah, "\x\gg\addons\gg_music\SadBoiHours\Hallelujah.ogg")
+	CREATE_SOUND_VOLUMES(SuicideIsPainless, "\x\gg\addons\gg_music\SadBoiHours\SuicideIsPainless.ogg")
+	CREATE_SOUND_VOLUMES(SomewhereOverTheRainbow, "\x\gg\addons\gg_music\SadBoiHours\SomewhereOverTheRainbow.ogg")
+	CREATE_SOUND_VOLUMES(LettertoMadeline, "\x\gg\addons\gg_music\SadBoiHours\LettertoMadeline.ogg")
 	CREATE_SOUND_VOLUMES(Way2Sexy, "\x\gg\addons\gg_music\ALittleTrollin\Way2Sexy.ogg")
 	CREATE_SOUND_VOLUMES(ALot, "\x\gg\addons\gg_music\ALittleTrollin\ALot.ogg")
 	CREATE_SOUND_VOLUMES(MoneyTrees, "\x\gg\addons\gg_music\ALittleTrollin\MoneyTrees.ogg")
@@ -352,18 +352,18 @@ class CfgVehicles
 			};
 		};
 	};
-	class gg_compact_discs_Depression: Item_Base_F
+	class gg_compact_discs_SadBoiHours: Item_Base_F
 	{
 		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_Depression_DisplayName";
+		displayName="$STR_gg_compact_discs_SadBoiHours_DisplayName";
 		vehicleClass="Items";
 		scope=2;
 		scopeCurator=2;
 		class TransportItems
 		{
-			class _xx_gg_compact_discs_Depression
+			class _xx_gg_compact_discs_SadBoiHours
 			{
-				name="gg_compact_discs_Depression";
+				name="gg_compact_discs_SadBoiHours";
 				count=1;
 			};
 		};
@@ -1404,11 +1404,11 @@ class CfgWeapons
 			}
 		};
 	};
-	class gg_compact_discs_Depression: gg_car_stereo_BaseCD
+	class gg_compact_discs_SadBoiHours: gg_car_stereo_BaseCD
 	{
 		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_Depression_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_Depression_Description";
+		displayName="$STR_gg_compact_discs_SadBoiHours_DisplayName";
+		descriptionShort="$STR_gg_compact_discs_SadBoiHours_Description";
 		scope=2;
 		gg_car_stereo_tracks[]=
 		{

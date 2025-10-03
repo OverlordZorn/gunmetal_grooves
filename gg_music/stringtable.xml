@@ -509,9 +509,9 @@
             <English>Boney M. - Rasputin</English>
         </Key>
 
-        <!-- Depression -->
-        <Key ID="STR_GG_Music_Depression">
-            <English>Depression</English>
+        <!-- Sad Boi Hours -->
+        <Key ID="STR_GG_Music_SadBoiHours">
+            <English>SadBoiHours</English>
         </Key>
         <Key ID="STR_GG_Music_MadWorld">
             <English>Gary Jules - Mad World</English>
