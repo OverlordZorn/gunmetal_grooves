@@ -9,12 +9,9 @@ This guide will walk you through the process of adding new tracks to the game. F
 
 2.  **Define the sound in `config.cpp`:**
     *   Open `gg_compact_discs/config.cpp`.
-    *   Inside the `CfgSounds` class, you need to create 10 sound definitions for each track, one for each of the 10 volume levels the car stereo supports.
-    *   The class name for each definition must follow the format `gg_compact_discs_TrackName_VOL_X`, where `X` is the volume number (from 1 to 10). The game's script uses this suffix to select the correct sound based on the volume the player chooses in the vehicle.
-    *   The `sound[]` array has three parameters:
-        1.  The path to your `.ogg` file (e.g., `"\\x\\gg\\addons\\gg_music\\Synthwave\\MyNewTrack.ogg"`).
-        2.  A volume modifier, which should be `"X/2"` where `X` is the volume number (e.g., `"1/2"` for `_VOL_1`, `"2/2"` for `_VOL_2`, etc.). This acts as a volume multiplier within the game engine.
-        3.  The pitch of the sound. `1` is the normal pitch.
+    *   Inside the `CfgSounds` class, use the `CREATE_SOUND_VOLUMES` macro to define the sound for your new track. This macro automatically generates the 10 required sound definitions for each volume level.
+    *   The `className` should be the name of your track (e.g., `MyNewTrack`).
+    *   The `filePath` should be the path to your `.ogg` file (e.g., `"\x\gg\addons\gg_music\Synthwave\MyNewTrack.ogg"`).
 
     **Example:**
 
@@ -22,48 +19,13 @@ This guide will walk you through the process of adding new tracks to the game. F
     class CfgSounds
     {
         // ... existing sounds
-
-        // Volume 1 definition
-        class gg_compact_discs_MyNewTrack_VOL_1
-        {
-            sound[]=
-            {
-                "\\x\\gg\\addons\\gg_music\\Synthwave\\MyNewTrack.ogg",
-                "1/2",
-                1
-            };
-            titles[]={};
-        };
-
-        // Volume 2 definition
-        class gg_compact_discs_MyNewTrack_VOL_2
-        {
-            sound[]=
-            {
-                "\\x\\gg\\addons\\gg_music\\Synthwave\\MyNewTrack.ogg",
-                "2/2",
-                1
-            };
-            titles[]={};
-        };
-
-        // ... and so on up to VOL_10 for "MyNewTrack"
-        class gg_compact_discs_MyNewTrack_VOL_10
-        {
-            sound[]=
-            {
-                "\\x\\gg\\addons\\gg_music\\Synthwave\\MyNewTrack.ogg",
-                "10/2",
-                1
-            };
-            titles[]={};
-        };
+        CREATE_SOUND_VOLUMES(MyNewTrack, "\x\gg\addons\gg_music\Synthwave\MyNewTrack.ogg")
     };
     ```
 
 3.  **Add track title to `stringtable.xml`:**
     *   Open `gg_compact_discs/stringtable.xml`.
-    *   Inside the `<Package name="Compact_Discs">` tag, add a new `<Key>` for your track's title. This will be used when the track name is displayed in the car stereo.
+    *   Inside the `<Package name="Compact_Discs">` tag, add a new `<Key>` for your track's title. The `ID` must follow the format `STR_gg_music_TrackName`. This will be used when the track name is displayed in the car stereo.
 
     **Example:**
 

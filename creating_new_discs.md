@@ -6,72 +6,40 @@ This guide will walk you through the process of adding new compact discs to the 
 
 1.  **Define the disc item in `config.cpp`:**
     *   Open `gg_compact_discs/config.cpp`.
-    *   Inside the `CfgVehicles` class, add a new class for your disc. The class name should follow the format `gg_compact_discs_DiscName`.
-    *   Set the `displayName` to a string that will be defined in `stringtable.xml`.
+    *   Inside the `CfgVehicles` class, use the `CREATE_DISC_ITEM` macro to define your new disc. The `className` should be unique and descriptive (e.g., `SynthwaveHits`).
 
     **Example:**
 
     ```cpp
     class CfgVehicles
     {
-        // ... existing vehicles
-        class gg_compact_discs_SynthwaveHits: Item_Base_F
-        {
-            author="$STR_GG_Main_Author";
-            displayName="$STR_gg_compact_discs_SynthwaveHits_DisplayName";
-            vehicleClass="Items";
-            scope=2;
-            scopeCurator=2;
-            class TransportItems
-            {
-                class _xx_gg_compact_discs_SynthwaveHits
-                {
-                    name="gg_compact_discs_SynthwaveHits";
-                    count=1;
-                };
-            };
-        };
+        class Item_Base_F;
+        CREATE_DISC_ITEM(SynthwaveHits)
     };
     ```
 
 2.  **Define the disc and its tracklist in `config.cpp`:**
     *   Open `gg_compact_discs/config.cpp`.
-    *   Inside the `CfgWeapons` class, add a new class for your disc. The class name should be the same as the one you defined in `CfgVehicles`.
-    *   Set the `displayName` and `descriptionShort` to strings that will be defined in `stringtable.xml`.
-    *   In the `gg_car_stereo_tracks[]` array, add your new tracks. Each track is an array containing the track name (without the `_VOL_X` suffix), the string for the track title (from `stringtable.xml`), and the duration of the track in seconds.
+    *   Inside the `CfgWeapons` class, use the `CREATE_DISC_WEAPON_HEADER` macro to start the disc definition.
+    *   Use the `ADD_TRACK` macro for each track you want to add to the disc. The `trackName` should correspond to the class name of the sound you defined, and the `duration` should be the length of the track in seconds.
+    *   Finally, close the definition with the `CREATE_DISC_WEAPON_FOOTER` macro.
 
     **Example:**
 
     ```cpp
     class CfgWeapons
     {
-        // ... existing weapons
-        class gg_compact_discs_SynthwaveHits: gg_car_stereo_BaseCD
-        {
-            author="$STR_GG_Main_Author";
-            displayName="$STR_gg_compact_discs_SynthwaveHits_DisplayName";
-            descriptionShort="$STR_gg_compact_discs_SynthwaveHits_Description";
-            scope=2;
-            gg_car_stereo_tracks[]=
-            {
-                {
-                    "gg_compact_discs_MyNewTrack",
-                    "$STR_gg_music_MyNewTrack",
-                    300
-                },
-                {
-                    "gg_compact_discs_AnotherTrack",
-                    "$STR_gg_music_AnotherTrack",
-                    240
-                }
-            };
-        };
+        class gg_car_stereo_BaseCD;
+        CREATE_DISC_WEAPON_HEADER(SynthwaveHits)
+            ADD_TRACK(MyNewTrack, 300),
+            ADD_TRACK(AnotherTrack, 240)
+        CREATE_DISC_WEAPON_FOOTER()
     };
     ```
 
 3.  **Add display names and descriptions to `stringtable.xml`:**
     *   Open `gg_compact_discs/stringtable.xml`.
-    *   Inside the `<Package name="Compact_Discs">` tag, add new `<Key>` tags for your disc's display name and description. You will also need to add a key for each track title if they don't already exist.
+    *   Inside the `<Package name="Compact_Discs">` tag, add new `<Key>` tags for your disc's display name and description. The `ID`s must follow the format `STR_gg_compact_discs_className_DisplayName` and `STR_gg_compact_discs_className_Description`.
 
     **Example:**
 
@@ -86,14 +54,8 @@ This guide will walk you through the process of adding new compact discs to the 
             <Key ID="STR_gg_compact_discs_SynthwaveHits_Description">
                 <English>A compact disc containing synthwave hits.</English>
             </Key>
-            <Key ID="STR_gg_music_MyNewTrack">
-                <English>My New Track</English>
-            </Key>
-            <Key ID="STR_gg_music_AnotherTrack">
-                <English>Another Track</English>
-            </Key>
         </Package>
     </Project>
     ```
 
-By following these steps, you can successfully add new discs to the game.
+By following these steps, you can successfully add new discs to the game using the simplified macro-based workflow.
