@@ -288,1686 +288,281 @@ class CfgSounds
 class CfgVehicles
 {
 	class Item_Base_F;
-	class gg_compact_discs_90sRap: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_90sRap_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_90sRap
-			{
-				name="gg_compact_discs_90sRap";
-				count=1;
-			};
-		};
-	};
-	class gg_compact_discs_AssortedBangers: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_AssortedBangers_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_AssortedBangers
-			{
-				name="gg_compact_discs_AssortedBangers";
-				count=1;
-			};
-		};
-	};
-	class gg_compact_discs_GhostTwoMixtape: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_GhostTwoMixtape_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_GhostTwoMixtape
-			{
-				name="gg_compact_discs_GhostTwoMixtape";
-				count=1;
-			};
-		};
-	};
-	class gg_compact_discs_GhostThreeMixtape: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_GhostThreeMixtape_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_GhostThreeMixtape
-			{
-				name="gg_compact_discs_GhostThreeMixtape";
-				count=1;
-			};
-		};
-	};
-	class gg_compact_discs_SadBoiHours: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_SadBoiHours_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_SadBoiHours
-			{
-				name="gg_compact_discs_SadBoiHours";
-				count=1;
-			};
-		};
-	};
-	class gg_compact_discs_ALittleTrollin: Item_Base_F
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_ALittleTrollin_DisplayName";
-		vehicleClass="Items";
-		scope=2;
-		scopeCurator=2;
-		class TransportItems
-		{
-			class _xx_gg_compact_discs_ALittleTrollin
-			{
-				name="gg_compact_discs_ALittleTrollin";
-				count=1;
-			};
-		};
-	};
+	CREATE_DISC_ITEM(90sRap)
+	CREATE_DISC_ITEM(AssortedBangers)
+	CREATE_DISC_ITEM(GhostTwoMixtape)
+	CREATE_DISC_ITEM(GhostThreeMixtape)
+	CREATE_DISC_ITEM(SadBoiHours)
+	CREATE_DISC_ITEM(ALittleTrollin)
+	CREATE_DISC_ITEM(TibbsTastefulTracks)
 };
 class CfgWeapons
 {
 	class gg_car_stereo_BaseCD;
-	class gg_compact_discs_90sRap: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_90sRap_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_90sRap_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_AmbitionzAzARidah",
-				"$STR_gg_music_AmbitionzAzARidah",
-				278
-			},
-			
-			{
-				"gg_compact_discs_DiamondsAndWood",
-				"$STR_gg_music_DiamondsAndWood",
-				313
-			},
-			
-			{
-				"gg_compact_discs_GinAndJuice",
-				"$STR_gg_music_GinAndJuice",
-				212
-			},
-			
-			{
-				"gg_compact_discs_HailMary",
-				"$STR_gg_music_HailMary",
-				312
-			},
-			
-			{
-				"gg_compact_discs_IGot5OnIt",
-				"$STR_gg_music_IGot5OnIt",
-				253
-			},
-			
-			{
-				"gg_compact_discs_ISmellSmoke",
-				"$STR_gg_music_ISmellSmoke",
-				209
-			},
-			
-			{
-				"gg_compact_discs_ItWasAGoodDay",
-				"$STR_gg_music_ItWasAGoodDay",
-				260
-			},
-			
-			{
-				"gg_compact_discs_Murder",
-				"$STR_gg_music_Murder",
-				232
-			},
-			
-			{
-				"gg_compact_discs_MyMindPlayinTricksOnMe",
-				"$STR_gg_music_MyMindPlayinTricksOnMe",
-				311
-			},
-			
-			{
-				"gg_compact_discs_NoMoPlay",
-				"$STR_gg_music_NoMoPlay",
-				295
-			},
-			
-			{
-				"gg_compact_discs_NotoriousThugs",
-				"$STR_gg_music_NotoriousThugs",
-				369
-			},
-			
-			{
-				"gg_compact_discs_NuthinButAGThang",
-				"$STR_gg_music_NuthinButAGThang",
-				238
-			},
-			
-			{
-				"gg_compact_discs_Regulate",
-				"$STR_gg_music_Regulate",
-				238
-			},
-			
-			{
-				"gg_compact_discs_SippinOnSomeSyrup",
-				"$STR_gg_music_SippinOnSomeSyrup",
-				262
-			},
-			
-			{
-				"gg_compact_discs_StillSmokin",
-				"$STR_gg_music_StillSmokin",
-				143
-			},
-			
-			{
-				"gg_compact_discs_TheManRightChea",
-				"$STR_gg_music_TheManRightChea",
-				240
-			},
-			
-			{
-				"gg_compact_discs_ThugLuv",
-				"$STR_gg_music_ThugLuv",
-				307
-			},
-			
-			{
-				"gg_compact_discs_ThuggishRuggishBone",
-				"$STR_gg_music_ThuggishRuggishBone",
-				281
-			},
-			
-			{
-				"gg_compact_discs_WhoDatTalkingDown",
-				"$STR_gg_music_WhoDatTalkingDown",
-				230
-			},
-			
-			{
-				"gg_compact_discs_WhoRunIt",
-				"$STR_gg_music_WhoRunIt",
-				249
-			}
-		};
-	};
-	class gg_compact_discs_AssortedBangers: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_AssortedBangers_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_AssortedBangers_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_TheLadyDontMind",
-				"$STR_gg_music_TheLadyDontMind",
-				238
-			},
-			
-			{
-				"gg_compact_discs_PaleShelter",
-				"$STR_gg_music_PaleShelter",
-				273
-			},
-			
-			{
-				"gg_compact_discs_Maneater",
-				"$STR_gg_music_Maneater",
-				271
-			},
-			
-			{
-				"gg_compact_discs_IRanSoFarAway",
-				"$STR_gg_music_IRanSoFarAway",
-				306
-			},
-			
-			{
-				"gg_compact_discs_SweetDreamsAreMadeOfThis",
-				"$STR_gg_music_SweetDreamsAreMadeOfThis",
-				292
-			},
-			
-			{
-				"gg_compact_discs_BlueMonday",
-				"$STR_gg_music_BlueMonday",
-				450
-			},
-			
-			{
-				"gg_compact_discs_LifeDuringWartime",
-				"$STR_gg_music_LifeDuringWartime",
-				221
-			},
-			
-			{
-				"gg_compact_discs_OutOfTouch",
-				"$STR_gg_music_OutOfTouch",
-				249
-			},
-			
-			{
-				"gg_compact_discs_SmalltownBoy",
-				"$STR_gg_music_SmalltownBoy",
-				540
-			},
-			
-			{
-				"gg_compact_discs_OverAndOver",
-				"$STR_gg_music_OverAndOver",
-				350
-			},
-			
-			{
-				"gg_compact_discs_PsychoKiller",
-				"$STR_gg_music_PsychoKiller",
-				261
-			},
-			
-			{
-				"gg_compact_discs_LittleDarkAge",
-				"$STR_gg_music_LittleDarkAge",
-				299
-			},
-			
-			{
-				"gg_compact_discs_Nightcall",
-				"$STR_gg_music_Nightcall",
-				256
-			},
-			
-			{
-				"gg_compact_discs_TheManWhoSoldTheWorld",
-				"$STR_gg_music_TheManWhoSoldTheWorld",
-				343
-			},
-			
-			{
-				"gg_compact_discs_BlindingLights",
-				"$STR_gg_music_BlindingLights",
-				203
-			},
-			
-			{
-				"gg_compact_discs_Edgerunner",
-				"$STR_gg_music_Edgerunner",
-				161
-			},
-			
-			{
-				"gg_compact_discs_InTheAirTonight",
-				"$STR_gg_music_InTheAirTonight",
-				336
-			},
-			
-			{
-				"gg_compact_discs_MessageInABottle",
-				"$STR_gg_music_MessageInABottle",
-				260
-			},
-			
-			{
-				"gg_compact_discs_YourLove",
-				"$STR_gg_music_YourLove",
-				221
-			},
-			
-			{
-				"gg_compact_discs_Dreams",
-				"$STR_gg_music_Dreams",
-				257
-			},
-			
-			{
-				"gg_compact_discs_TunnelOfLove",
-				"$STR_gg_music_TunnelOfLove",
-				489
-			},
-			
-			{
-				"gg_compact_discs_DancingInTheDark",
-				"$STR_gg_music_DancingInTheDark",
-				427
-			},
-			
-			{
-				"gg_compact_discs_PapaWasARollingStone",
-				"$STR_gg_music_PapaWasARollingStone",
-				710
-			},
-			
-			{
-				"gg_compact_discs_DoItAgain",
-				"$STR_gg_music_DoItAgain",
-				356
-			},
-			
-			{
-				"gg_compact_discs_BennysHere",
-				"$STR_gg_music_BennysHere",
-				401
-			},
-			
-			{
-				"gg_compact_discs_Showdown",
-				"$STR_gg_music_Showdown",
-				249
-			},
-			
-			{
-				"gg_compact_discs_Destination",
-				"$STR_gg_music_Destination",
-				402
-			},
-			
-			{
-				"gg_compact_discs_BabyImYours",
-				"$STR_gg_music_BabyImYours",
-				215
-			},
-			
-			{
-				"gg_compact_discs_GetLucky",
-				"$STR_gg_music_GetLucky",
-				369
-			},
-			
-			{
-				"gg_compact_discs_IHeardItThroughTheGrapevine",
-				"$STR_gg_music_IHeardItThroughTheGrapevine",
-				664
-			},
-			
-			{
-				"gg_compact_discs_SisterGoldenHair",
-				"$STR_gg_music_SisterGoldenHair",
-				196
-			},
-			
-			{
-				"gg_compact_discs_Layla",
-				"$STR_gg_music_Layla",
-				423
-			},
-			
-			{
-				"gg_compact_discs_Psycho",
-				"$STR_gg_music_Psycho",
-				223
-			},
-			
-			{
-				"gg_compact_discs_Mykonos",
-				"$STR_gg_music_Mykonos",
-				228
-			},
-			
-			{
-				"gg_compact_discs_BonesInTheOcean",
-				"$STR_gg_music_BonesInTheOcean",
-				193
-			},
-			
-			{
-				"gg_compact_discs_RedRightHand",
-				"$STR_gg_music_RedRightHand",
-				370
-			},
-			
-			{
-				"gg_compact_discs_JustDroppedIn",
-				"$STR_gg_music_JustDroppedIn",
-				262
-			},
-			
-			{
-				"gg_compact_discs_IfYouCouldReadMyMind",
-				"$STR_gg_music_IfYouCouldReadMyMind",
-				269
-			},
-			
-			{
-				"gg_compact_discs_DontThinkTwiceItsAllRight",
-				"$STR_gg_music_DontThinkTwiceItsAllRight",
-				231
-			},
-			
-			{
-				"gg_compact_discs_500Miles",
-				"$STR_gg_music_500Miles",
-				193
-			},
-			
-			{
-				"gg_compact_discs_LittleWing",
-				"$STR_gg_music_LittleWing",
-				408
-			},
-			
-			{
-				"gg_compact_discs_HeyJoe",
-				"$STR_gg_music_HeyJoe",
-				227
-			},
-			
-			{
-				"gg_compact_discs_AllAlongTheWatchtower",
-				"$STR_gg_music_AllAlongTheWatchtower",
-				241
-			},
-			
-			{
-				"gg_compact_discs_ComingIntoLosAngeles",
-				"$STR_gg_music_ComingIntoLosAngeles",
-				186
-			},
-			
-			{
-				"gg_compact_discs_PaintItBlack",
-				"$STR_gg_music_PaintItBlack",
-				226
-			},
-			
-			{
-				"gg_compact_discs_StrawberryLetter23",
-				"$STR_gg_music_StrawberryLetter23",
-				242
-			},
-			
-			{
-				"gg_compact_discs_Pinball",
-				"$STR_gg_music_Pinball",
-				193
-			},
-			
-			{
-				"gg_compact_discs_Cocaine",
-				"$STR_gg_music_Cocaine",
-				409
-			},
-			
-			{
-				"gg_compact_discs_WhiteRoom",
-				"$STR_gg_music_WhiteRoom",
-				298
-			},
-			
-			{
-				"gg_compact_discs_Godzilla",
-				"$STR_gg_music_Godzilla",
-				221
-			},
-			
-			{
-				"gg_compact_discs_Time",
-				"$STR_gg_music_Time",
-				413
-			},
-			
-			{
-				"gg_compact_discs_OneOfTheseDays",
-				"$STR_gg_music_OneOfTheseDays",
-				355
-			},
-			
-			{
-				"gg_compact_discs_TheMomentBefore",
-				"$STR_gg_music_TheMomentBefore",
-				328
-			},
-			
-			{
-				"gg_compact_discs_FarFromAnyRoad",
-				"$STR_gg_music_FarFromAnyRoad",
-				166
-			},
-			
-			{
-				"gg_compact_discs_GhostRidersInTheSky",
-				"$STR_gg_music_GhostRidersInTheSky",
-				351
-			},
-			
-			{
-				"gg_compact_discs_DontFearTheReaper",
-				"$STR_gg_music_DontFearTheReaper",
-				308
-			},
-			
-			{
-				"gg_compact_discs_Epitaph",
-				"$STR_gg_music_Epitaph",
-				535
-			},
-			
-			{
-				"gg_compact_discs_HouseOfTheRisingSun",
-				"$STR_gg_music_HouseOfTheRisingSun",
-				268
-			},
-			
-			{
-				"gg_compact_discs_AWhiterShadeOfPale",
-				"$STR_gg_music_AWhiterShadeOfPale",
-				235
-			},
-			
-			{
-				"gg_compact_discs_BlackMagicWoman",
-				"$STR_gg_music_BlackMagicWoman",
-				321
-			},
-			
-			{
-				"gg_compact_discs_Abracadabra",
-				"$STR_gg_music_Abracadabra",
-				308
-			},
-			
-			{
-				"gg_compact_discs_AintNoLoveInTheHeartOfTheCity",
-				"$STR_gg_music_AintNoLoveInTheHeartOfTheCity",
-				233
-			},
-			
-			{
-				"gg_compact_discs_CaliforniaDreamin",
-				"$STR_gg_music_CaliforniaDreamin",
-				377
-			},
-			
-			{
-				"gg_compact_discs_SunshineOfYourLove",
-				"$STR_gg_music_SunshineOfYourLove",
-				250
-			},
-			
-			{
-				"gg_compact_discs_ComeAndGetYourLove",
-				"$STR_gg_music_ComeAndGetYourLove",
-				300
-			},
-			
-			{
-				"gg_compact_discs_SpaceTruckin",
-				"$STR_gg_music_SpaceTruckin",
-				273
-			},
-			
-			{
-				"gg_compact_discs_Strutter",
-				"$STR_gg_music_Strutter",
-				190
-			},
-			
-			{
-				"gg_compact_discs_Refugee",
-				"$STR_gg_music_Refugee",
-				202
-			},
-			
-			{
-				"gg_compact_discs_LosingMyReligion",
-				"$STR_gg_music_LosingMyReligion",
-				268
-			},
-			
-			{
-				"gg_compact_discs_DearGod",
-				"$STR_gg_music_DearGod",
-				219
-			},
-			
-			{
-				"gg_compact_discs_BurninForYou",
-				"$STR_gg_music_BurninForYou",
-				271
-			},
-			
-			{
-				"gg_compact_discs_CallMe",
-				"$STR_gg_music_CallMe",
-				212
-			},
-			
-			{
-				"gg_compact_discs_DaYaThinkImSexy",
-				"$STR_gg_music_DaYaThinkImSexy",
-				327
-			},
-			
-			{
-				"gg_compact_discs_TakeMeOut",
-				"$STR_gg_music_TakeMeOut",
-				240
-			},
-			
-			{
-				"gg_compact_discs_SevenNationArmy",
-				"$STR_gg_music_SevenNationArmy",
-				231
-			},
-			
-			{
-				"gg_compact_discs_OffendInEveryWay",
-				"$STR_gg_music_OffendInEveryWay",
-				186
-			},
-			
-			{
-				"gg_compact_discs_NotYourKindOfPeople",
-				"$STR_gg_music_NotYourKindOfPeople",
-				299
-			},
-			
-			{
-				"gg_compact_discs_NotUpToMe",
-				"$STR_gg_music_NotUpToMe",
-				289
-			},
-			
-			{
-				"gg_compact_discs_LoveWillTearUsApart",
-				"$STR_gg_music_LoveWillTearUsApart",
-				204
-			},
-			
-			{
-				"gg_compact_discs_Buena",
-				"$STR_gg_music_Buena",
-				199
-			},
-			
-			{
-				"gg_compact_discs_WalkThisLand",
-				"$STR_gg_music_WalkThisLand",
-				415
-			},
-			
-			{
-				"gg_compact_discs_PumpedUpKicks",
-				"$STR_gg_music_PumpedUpKicks",
-				239
-			},
-			
-			{
-				"gg_compact_discs_WhenTheLeveeBreaks",
-				"$STR_gg_music_WhenTheLeveeBreaks",
-				428
-			},
-			
-			{
-				"gg_compact_discs_ThenCameTheLastDaysOfMay",
-				"$STR_gg_music_ThenCameTheLastDaysOfMay",
-				210
-			},
-			
-			{
-				"gg_compact_discs_TheBottomlessHole",
-				"$STR_gg_music_TheBottomlessHole",
-				193
-			},
-			
-			{
-				"gg_compact_discs_TheChain",
-				"$STR_gg_music_TheChain",
-				270
-			},
-			
-			{
-				"gg_compact_discs_CatchTheRainbow",
-				"$STR_gg_music_CatchTheRainbow",
-				396
-			},
-			
-			{
-				"gg_compact_discs_BadCompany",
-				"$STR_gg_music_BadCompany",
-				288
-			},
-			
-			{
-				"gg_compact_discs_Mother",
-				"$STR_gg_music_Mother",
-				204
-			},
-			
-			{
-				"gg_compact_discs_ThatSmell",
-				"$STR_gg_music_ThatSmell",
-				348
-			},
-			
-			{
-				"gg_compact_discs_MaryJanesLastDance",
-				"$STR_gg_music_MaryJanesLastDance",
-				273
-			},
-			
-			{
-				"gg_compact_discs_CallMeTheBreeze",
-				"$STR_gg_music_CallMeTheBreeze",
-				307
-			},
-			
-			{
-				"gg_compact_discs_ChoctawBingo",
-				"$STR_gg_music_ChoctawBingo",
-				513
-			},
-			
-			{
-				"gg_compact_discs_FeelGoodInc",
-				"$STR_gg_music_FeelGoodInc",
-				222
-			},
-			
-			{
-				"gg_compact_discs_CantFeelMyFace",
-				"$STR_gg_music_CantFeelMyFace",
-				215
-			},
-			
-			{
-				"gg_compact_discs_SingAlong",
-				"$STR_gg_music_SingAlong",
-				174
-			},
-			
-			{
-				"gg_compact_discs_AGoodLook",
-				"$STR_gg_music_AGoodLook",
-				241
-			},
-			
-			{
-				"gg_compact_discs_TheLessIKnowTheBetter",
-				"$STR_gg_music_TheLessIKnowTheBetter",
-				217
-			},
-			
-			{
-				"gg_compact_discs_AbsoluteTerritory",
-				"$STR_gg_music_AbsoluteTerritory",
-				268
-			},
-			
-			{
-				"gg_compact_discs_CocaineMan",
-				"$STR_gg_music_CocaineMan",
-				234
-			},
-			
-			{
-				"gg_compact_discs_InTheCity",
-				"$STR_gg_music_InTheCity",
-				235
-			},
-			
-			{
-				"gg_compact_discs_AHorseWithNoName",
-				"$STR_gg_music_AHorseWithNoName",
-				252
-			},
-			
-			{
-				"gg_compact_discs_HowLong",
-				"$STR_gg_music_HowLong",
-				229
-			},
-			
-			{
-				"gg_compact_discs_InHellIllBeInGoodCompany",
-				"$STR_gg_music_InHellIllBeInGoodCompany",
-				249
-			},
-			
-			{
-				"gg_compact_discs_BigIron",
-				"$STR_gg_music_BigIron",
-				235
-			},
-			
-			{
-				"gg_compact_discs_LastTrainHome",
-				"$STR_gg_music_LastTrainHome",
-				338
-			},
-			
-			{
-				"gg_compact_discs_SimpleMan",
-				"$STR_gg_music_SimpleMan",
-				356
-			},
-			
-			{
-				"gg_compact_discs_StairwayToHeaven",
-				"$STR_gg_music_StairwayToHeaven",
-				482
-			},
-			
-			{
-				"gg_compact_discs_FreeBird",
-				"$STR_gg_music_FreeBird",
-				607
-			},
-			
-			{
-				"gg_compact_discs_TheEcstasyOfGold",
-				"$STR_gg_music_TheEcstasyOfGold",
-				200
-			},
-			
-			{
-				"gg_compact_discs_Battery",
-				"$STR_gg_music_Battery",
-				312
-			},
-			
-			{
-				"gg_compact_discs_SeekAndDestroy",
-				"$STR_gg_music_SeekAndDestroy",
-				414
-			},
-			
-			{
-				"gg_compact_discs_ForWhomTheBellTolls",
-				"$STR_gg_music_ForWhomTheBellTolls",
-				309
-			},
-			
-			{
-				"gg_compact_discs_SquareHammer",
-				"$STR_gg_music_SquareHammer",
-				239
-			},
-			
-			{
-				"gg_compact_discs_DanceMacabre",
-				"$STR_gg_music_DanceMacabre",
-				219
-			},
-			
-			{
-				"gg_compact_discs_KnightsOfCydonia",
-				"$STR_gg_music_KnightsOfCydonia",
-				367
-			},
-			
-			{
-				"gg_compact_discs_ISeeThroughYou",
-				"$STR_gg_music_ISeeThroughYou",
-				342
-			},
-			
-			{
-				"gg_compact_discs_DeathsDoor",
-				"$STR_gg_music_DeathsDoor",
-				435
-			},
-			
-			{
-				"gg_compact_discs_WelcomeToTheVoid",
-				"$STR_gg_music_WelcomeToTheVoid",
-				490
-			},
-			
-			{
-				"gg_compact_discs_ColdSweat",
-				"$STR_gg_music_ColdSweat",
-				186
-			},
-			
-			{
-				"gg_compact_discs_WeAreTheRoadCrew",
-				"$STR_gg_music_WeAreTheRoadCrew",
-				190
-			},
-			
-			{
-				"gg_compact_discs_AceOfSpades",
-				"$STR_gg_music_AceOfSpades",
-				166
-			},
-			
-			{
-				"gg_compact_discs_HolyDiver",
-				"$STR_gg_music_HolyDiver",
-				280
-			},
-			
-			{
-				"gg_compact_discs_DeathByDesign",
-				"$STR_gg_music_DeathByDesign",
-				280
-			},
-			
-			{
-				"gg_compact_discs_CultOfPersonality",
-				"$STR_gg_music_CultOfPersonality",
-				292
-			},
-			
-			{
-				"gg_compact_discs_Hellraiser",
-				"$STR_gg_music_Hellraiser",
-				293
-			},
-			
-			{
-				"gg_compact_discs_NoMoreTears",
-				"$STR_gg_music_NoMoreTears",
-				445
-			},
-			
-			{
-				"gg_compact_discs_Stillborn",
-				"$STR_gg_music_Stillborn",
-				195
-			},
-			
-			{
-				"gg_compact_discs_CounterfeitGod",
-				"$STR_gg_music_CounterfeitGod",
-				258
-			},
-			
-			{
-				"gg_compact_discs_MassMurderMachine",
-				"$STR_gg_music_MassMurderMachine",
-				346
-			},
-			
-			{
-				"gg_compact_discs_BatteringRam",
-				"$STR_gg_music_BatteringRam",
-				261
-			},
-			
-			{
-				"gg_compact_discs_GenocideJunkies",
-				"$STR_gg_music_GenocideJunkies",
-				352
-			},
-			
-			{
-				"gg_compact_discs_WarPigs",
-				"$STR_gg_music_WarPigs",
-				474
-			},
-			
-			{
-				"gg_compact_discs_NIB",
-				"$STR_gg_music_NIB",
-				364
-			},
-			
-			{
-				"gg_compact_discs_Supernaut",
-				"$STR_gg_music_Supernaut",
-				270
-			},
-			
-			{
-				"gg_compact_discs_SabbraCadabra",
-				"$STR_gg_music_SabbraCadabra",
-				357
-			},
-			
-			{
-				"gg_compact_discs_SabbathBloodySabbath",
-				"$STR_gg_music_SabbathBloodySabbath",
-				347
-			},
-			
-			{
-				"gg_compact_discs_Snowblind",
-				"$STR_gg_music_Snowblind",
-				325
-			},
-			
-			{
-				"gg_compact_discs_ANationalAcrobat",
-				"$STR_gg_music_ANationalAcrobat",
-				375
-			},
-			
-			{
-				"gg_compact_discs_IntoTheVoid",
-				"$STR_gg_music_IntoTheVoid",
-				370
-			},
-			
-			{
-				"gg_compact_discs_CountryGirl",
-				"$STR_gg_music_CountryGirl",
-				242
-			},
-			
-			{
-				"gg_compact_discs_HeavenAndHell",
-				"$STR_gg_music_HeavenAndHell",
-				417
-			},
-			
-			{
-				"gg_compact_discs_Badlands",
-				"$STR_gg_music_Badlands",
-				647
-			},
-			
-			{
-				"gg_compact_discs_MoonsOfNeptune",
-				"$STR_gg_music_MoonsOfNeptune",
-				1011
-			},
-			
-			{
-				"gg_compact_discs_TheMan",
-				"$STR_gg_music_TheMan",
-				266
-			},
-			
-			{
-				"gg_compact_discs_Rasputin",
-				"$STR_gg_music_Rasputin",
-				267
-			}
-		};
-	};
-	class gg_compact_discs_SadBoiHours: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_SadBoiHours_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_SadBoiHours_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_MadWorld",
-				"$STR_gg_music_MadWorld",
-				182
-			},
-			
-			{
-				"gg_compact_discs_TheEveningTrain",
-				"$STR_gg_music_TheEveningTrain",
-				257
-			},
-			
-			{
-				"gg_compact_discs_LookOnDownFromTheBridge",
-				"$STR_gg_music_LookOnDownFromTheBridge",
-				287
-			},
-			
-			{
-				"gg_compact_discs_ThisWorldIsNotMyHome",
-				"$STR_gg_music_ThisWorldIsNotMyHome",
-				207
-			},
-			
-			{
-				"gg_compact_discs_Changes",
-				"$STR_gg_music_Changes",
-				302
-			},
-			
-			{
-				"gg_compact_discs_BuryMeNotInTheLonePrairie",
-				"$STR_gg_music_BuryMeNotInTheLonePrairie",
-				144
-			},
-			
-			{
-				"gg_compact_discs_Hurt",
-				"$STR_gg_music_Hurt",
-				228
-			},
-			
-			{
-				"gg_compact_discs_HopeIsADangerousThingForAWoman",
-				"$STR_gg_music_HopeIsADangerousThingForAWoman",
-				326
-			},
-			
-			{
-				"gg_compact_discs_LetItGo",
-				"$STR_gg_music_LetItGo",
-				258
-			},
-			
-			{
-				"gg_compact_discs_TheSoundOfSilence",
-				"$STR_gg_music_TheSoundOfSilence",
-				187
-			},
-			
-			{
-				"gg_compact_discs_Hallelujah",
-				"$STR_gg_music_Hallelujah",
-				393
-			},
-			
-			{
-				"gg_compact_discs_SuicideIsPainless",
-				"$STR_gg_music_SuicideIsPainless",
-				174
-			},
-			
-			{
-				"gg_compact_discs_SomewhereOverTheRainbow",
-				"$STR_gg_music_SomewhereOverTheRainbow",
-				210
-			},
-			
-			{
-				"gg_compact_discs_LettertoMadeline",
-				"$STR_gg_music_LettertoMadeline",
-				471
-			}
-		};
-	};
-	class gg_compact_discs_GhostTwoMixtape: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_GhostTwoMixtape_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_GhostTwoMixtape_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_ManyMen",
-				"$STR_gg_music_ManyMen",
-				246
-			},
-			
-			{
-				"gg_compact_discs_WhereTheHoodAt",
-				"$STR_gg_music_WhereTheHoodAt",
-				286
-			},
-			
-			{
-				"gg_compact_discs_DoubleBaccin",
-				"$STR_gg_music_DoubleBaccin",
-				135
-			},
-			
-			{
-				"gg_compact_discs_WarPigs",
-				"$STR_gg_music_WarPigs",
-				478
-			},
-			
-			{
-				"gg_compact_discs_AllAlongTheWatchtower",
-				"$STR_gg_music_AllAlongTheWatchtower",
-				241
-			},
-			
-			{
-				"gg_compact_discs_BlackBetty",
-				"$STR_gg_music_BlackBetty",
-				238
-			},
-			
-			{
-				"gg_compact_discs_CloserToTheSun",
-				"$STR_gg_music_CloserToTheSun",
-				146
-			},
-			
-			{
-				"gg_compact_discs_ForWhatItsWorth",
-				"$STR_gg_music_ForWhatItsWorth",
-				157
-			},
-			
-			{
-				"gg_compact_discs_ItWasntMe",
-				"$STR_gg_music_ItWasntMe",
-				227
-			},
-			
-			{
-				"gg_compact_discs_Colt45",
-				"$STR_gg_music_Colt45",
-				359
-			},
-			
-			{
-				"gg_compact_discs_AllCanadianSurfClub",
-				"$STR_gg_music_AllCanadianSurfClub",
-				169
-			},
-			
-			{
-				"gg_compact_discs_FortunateSon",
-				"$STR_gg_music_FortunateSon",
-				138
-			},
-			
-			{
-				"gg_compact_discs_ManInTheBox",
-				"$STR_gg_music_ManInTheBox",
-				287
-			},
-			
-			{
-				"gg_compact_discs_Pisces",
-				"$STR_gg_music_Pisces",
-				305
-			},
-			
-			{
-				"gg_compact_discs_Demolisher",
-				"$STR_gg_music_Demolisher",
-				219
-			}
-		};
-	};
-	class gg_compact_discs_GhostThreeMixtape: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_GhostThreeMixtape_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_GhostThreeMixtape_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_AreYouSureHankDoneItThisWay",
-				"$STR_gg_music_AreYouSureHankDoneItThisWay",
-				175
-			},
-			
-			{
-				"gg_compact_discs_Track020299",
-				"$STR_gg_music_020299",
-				163
-			},
-			
-			{
-				"gg_compact_discs_MyNameIsMud",
-				"$STR_gg_music_MyNameIsMud",
-				283
-			},
-			
-			{
-				"gg_compact_discs_DieForYou",
-				"$STR_gg_music_DieForYou",
-				260
-			},
-			
-			{
-				"gg_compact_discs_RealAmerican",
-				"$STR_gg_music_RealAmerican",
-				362
-			},
-			
-			{
-				"gg_compact_discs_MoneyTrees",
-				"$STR_gg_music_MoneyTrees",
-				386
-			},
-			
-			{
-				"gg_compact_discs_FuckYouBitch",
-				"$STR_gg_music_FuckYouBitch",
-				204
-			},
-			
-			{
-				"gg_compact_discs_KickstartMyHeart",
-				"$STR_gg_music_KickstartMyHeart",
-				282
-			},
-			
-			{
-				"gg_compact_discs_WarPigs",
-				"$STR_gg_music_WarPigs",
-				478
-			},
-			
-			{
-				"gg_compact_discs_HotelLobby",
-				"$STR_gg_music_HotelLobby",
-				204
-			},
-			
-			{
-				"gg_compact_discs_ItWasAGoodDay",
-				"$STR_gg_music_ItWasAGoodDay",
-				260
-			},
-			
-			{
-				"gg_compact_discs_BadMoonRising",
-				"$STR_gg_music_BadMoonRising",
-				138
-			}
-		};
-	};
-	class gg_compact_discs_TibbsTastefulTracks: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_TibbsTastefulTracks_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_TibbsTastefulTracks_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_BackInBlack",
-				"$STR_gg_music_BackInBlack",
-				253
-			},
-			
-			{
-				"gg_compact_discs_Bandit",
-				"$STR_gg_music_Bandit",
-				149
-			},
-			
-			{
-				"gg_compact_discs_PartyAndBullshit",
-				"$STR_gg_music_PartyAndBullshit",
-				221
-			},
-			
-			{
-				"gg_compact_discs_KnifeTalk",
-				"$STR_gg_music_KnifeTalk",
-				243
-			},
-			
-			{
-				"gg_compact_discs_SpiritInTheSky",
-				"$STR_gg_music_SpiritInTheSky",
-				239
-			},
-			
-			{
-				"gg_compact_discs_HereComesTheSun",
-				"$STR_gg_music_HereComesTheSun",
-				191
-			},
-			
-			{
-				"gg_compact_discs_Twirlanta",
-				"$STR_gg_music_Twirlanta",
-				185
-			},
-			
-			{
-				"gg_compact_discs_Rocky",
-				"$STR_gg_music_Rocky",
-				216
-			},
-			
-			{
-				"gg_compact_discs_AlmostEasy",
-				"$STR_gg_music_AlmostEasy",
-				235
-			},
-			
-			{
-				"gg_compact_discs_TheRubberbandMan",
-				"$STR_gg_music_TheRubberbandMan",
-				213
-			},
-			
-			{
-				"gg_compact_discs_DancingintheMoonlight",
-				"$STR_gg_music_DancingintheMoonlight",
-				181
-			},
-			
-			{
-				"gg_compact_discs_Superstition",
-				"$STR_gg_music_Superstition",
-				266
-			},
-			
-			{
-				"gg_compact_discs_ComeandGetYourLove",
-				"$STR_gg_music_ComeandGetYourLove",
-				207
-			},
-			
-			{
-				"gg_compact_discs_ComeOutYeBlackAndTans",
-				"$STR_gg_music_ComeOutYeBlackAndTans",
-				184
-			},
-			
-			{
-				"gg_compact_discs_Erika",
-				"$STR_gg_music_Erika",
-				178
-			}
-		};
-	};
-	class gg_compact_discs_ALittleTrollin: gg_car_stereo_BaseCD
-	{
-		author="$STR_GG_Main_Author";
-		displayName="$STR_gg_compact_discs_ALittleTrollin_DisplayName";
-		descriptionShort="$STR_gg_compact_discs_ALittleTrollin_Description";
-		scope=2;
-		gg_car_stereo_tracks[]=
-		{
-			
-			{
-				"gg_compact_discs_Way2Sexy",
-				"$STR_gg_music_Way2Sexy",
-				258
-			},
-			
-			{
-				"gg_compact_discs_ALot",
-				"$STR_gg_music_ALot",
-				288
-			},
-			
-			{
-				"gg_compact_discs_MoneyTrees",
-				"$STR_gg_music_MoneyTrees",
-				388
-			},
-			
-			{
-				"gg_compact_discs_MiddleChild",
-				"$STR_gg_music_MiddleChild",
-				213
-			},
-			
-			{
-				"gg_compact_discs_GirlsWantGirls",
-				"$STR_gg_music_GirlsWantGirls",
-				222
-			},
-			
-			{
-				"gg_compact_discs_Blessings",
-				"$STR_gg_music_Blessings",
-				252
-			},
-			
-			{
-				"gg_compact_discs_MoneyInTheGrave",
-				"$STR_gg_music_MoneyInTheGrave",
-				205
-			},
-			
-			{
-				"gg_compact_discs_ThereHeGo",
-				"$STR_gg_music_ThereHeGo",
-				196
-			},
-			
-			{
-				"gg_compact_discs_Dysfunctional",
-				"$STR_gg_music_Dysfunctional",
-				244
-			},
-			
-			{
-				"gg_compact_discs_RicFlairDrip",
-				"$STR_gg_music_RicFlairDrip",
-				172
-			},
-			
-			{
-				"gg_compact_discs_SmackThat",
-				"$STR_gg_music_SmackThat",
-				212
-			},
-			
-			{
-				"gg_compact_discs_InDaClub",
-				"$STR_gg_music_InDaClub",
-				193
-			},
-			
-			{
-				"gg_compact_discs_ManyMen",
-				"$STR_gg_music_ManyMen",
-				256
-			},
-			
-			{
-				"gg_compact_discs_Rockstar",
-				"$STR_gg_music_Rockstar",
-				217
-			},
-			
-			{
-				"gg_compact_discs_KnifeTalk",
-				"$STR_gg_music_KnifeTalk",
-				243
-			},
-			
-			{
-				"gg_compact_discs_RapGod",
-				"$STR_gg_music_RapGod",
-				366
-			},
-			
-			{
-				"gg_compact_discs_GoingBad",
-				"$STR_gg_music_GoingBad",
-				180
-			},
-			
-			{
-				"gg_compact_discs_Bugatti",
-				"$STR_gg_music_Bugatti",
-				326
-			},
-			
-			{
-				"gg_compact_discs_SickoMode",
-				"$STR_gg_music_SickoMode",
-				322
-			},
-			
-			{
-				"gg_compact_discs_DNA",
-				"$STR_gg_music_DNA",
-				186
-			},
-			
-			{
-				"gg_compact_discs_FollowGod",
-				"$STR_gg_music_FollowGod",
-				104
-			},
-			
-			{
-				"gg_compact_discs_Heartless",
-				"$STR_gg_music_Heartless",
-				210
-			},
-			
-			{
-				"gg_compact_discs_LaughNowCryLater",
-				"$STR_gg_music_LaughNowCryLater",
-				261
-			},
-			
-			{
-				"gg_compact_discs_TunnelVision",
-				"$STR_gg_music_TunnelVision",
-				268
-			},
-			
-			{
-				"gg_compact_discs_LifeIsGood",
-				"$STR_gg_music_LifeIsGood",
-				237
-			},
-			
-			{
-				"gg_compact_discs_SoundtrackToMyLife",
-				"$STR_gg_music_SoundtrackToMyLife",
-				237
-			},
-			
-			{
-				"gg_compact_discs_ToosieSlide",
-				"$STR_gg_music_ToosieSlide",
-				248
-			},
-			
-			{
-				"gg_compact_discs_ImSoPaid",
-				"$STR_gg_music_ImSoPaid",
-				263
-			},
-			
-			{
-				"gg_compact_discs_DripTooHard",
-				"$STR_gg_music_DripTooHard",
-				146
-			},
-			
-			{
-				"gg_compact_discs_Yeah",
-				"$STR_gg_music_Yeah",
-				252
-			}
-		};
-	};
+	CREATE_DISC_WEAPON_HEADER(90sRap)
+		ADD_TRACK(AmbitionzAzARidah, 278),
+		ADD_TRACK(DiamondsAndWood, 313),
+		ADD_TRACK(GinAndJuice, 212),
+		ADD_TRACK(HailMary, 312),
+		ADD_TRACK(IGot5OnIt, 253),
+		ADD_TRACK(ISmellSmoke, 209),
+		ADD_TRACK(ItWasAGoodDay, 260),
+		ADD_TRACK(Murder, 232),
+		ADD_TRACK(MyMindPlayinTricksOnMe, 311),
+		ADD_TRACK(NoMoPlay, 295),
+		ADD_TRACK(NotoriousThugs, 369),
+		ADD_TRACK(NuthinButAGThang, 238),
+		ADD_TRACK(Regulate, 238),
+		ADD_TRACK(SippinOnSomeSyrup, 262),
+		ADD_TRACK(StillSmokin, 143),
+		ADD_TRACK(TheManRightChea, 240),
+		ADD_TRACK(ThugLuv, 307),
+		ADD_TRACK(ThuggishRuggishBone, 281),
+		ADD_TRACK(WhoDatTalkingDown, 230),
+		ADD_TRACK(WhoRunIt, 249)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(AssortedBangers)
+		ADD_TRACK(TheLadyDontMind, 238),
+		ADD_TRACK(PaleShelter, 273),
+		ADD_TRACK(Maneater, 271),
+		ADD_TRACK(IRanSoFarAway, 306),
+		ADD_TRACK(SweetDreamsAreMadeOfThis, 292),
+		ADD_TRACK(BlueMonday, 450),
+		ADD_TRACK(LifeDuringWartime, 221),
+		ADD_TRACK(OutOfTouch, 249),
+		ADD_TRACK(SmalltownBoy, 540),
+		ADD_TRACK(OverAndOver, 350),
+		ADD_TRACK(PsychoKiller, 261),
+		ADD_TRACK(LittleDarkAge, 299),
+		ADD_TRACK(Nightcall, 256),
+		ADD_TRACK(TheManWhoSoldTheWorld, 343),
+		ADD_TRACK(BlindingLights, 203),
+		ADD_TRACK(Edgerunner, 161),
+		ADD_TRACK(InTheAirTonight, 336),
+		ADD_TRACK(MessageInABottle, 260),
+		ADD_TRACK(YourLove, 221),
+		ADD_TRACK(Dreams, 257),
+		ADD_TRACK(TunnelOfLove, 489),
+		ADD_TRACK(DancingInTheDark, 427),
+		ADD_TRACK(PapaWasARollingStone, 710),
+		ADD_TRACK(DoItAgain, 356),
+		ADD_TRACK(BennysHere, 401),
+		ADD_TRACK(Showdown, 249),
+		ADD_TRACK(Destination, 402),
+		ADD_TRACK(BabyImYours, 215),
+		ADD_TRACK(GetLucky, 369),
+		ADD_TRACK(IHeardItThroughTheGrapevine, 664),
+		ADD_TRACK(SisterGoldenHair, 196),
+		ADD_TRACK(Layla, 423),
+		ADD_TRACK(Psycho, 223),
+		ADD_TRACK(Mykonos, 228),
+		ADD_TRACK(BonesInTheOcean, 193),
+		ADD_TRACK(RedRightHand, 370),
+		ADD_TRACK(JustDroppedIn, 262),
+		ADD_TRACK(IfYouCouldReadMyMind, 269),
+		ADD_TRACK(DontThinkTwiceItsAllRight, 231),
+		ADD_TRACK(500Miles, 193),
+		ADD_TRACK(LittleWing, 408),
+		ADD_TRACK(HeyJoe, 227),
+		ADD_TRACK(AllAlongTheWatchtower, 241),
+		ADD_TRACK(ComingIntoLosAngeles, 186),
+		ADD_TRACK(PaintItBlack, 226),
+		ADD_TRACK(StrawberryLetter23, 242),
+		ADD_TRACK(Pinball, 193),
+		ADD_TRACK(Cocaine, 409),
+		ADD_TRACK(WhiteRoom, 298),
+		ADD_TRACK(Godzilla, 221),
+		ADD_TRACK(Time, 413),
+		ADD_TRACK(OneOfTheseDays, 355),
+		ADD_TRACK(TheMomentBefore, 328),
+		ADD_TRACK(FarFromAnyRoad, 166),
+		ADD_TRACK(GhostRidersInTheSky, 351),
+		ADD_TRACK(DontFearTheReaper, 308),
+		ADD_TRACK(Epitaph, 535),
+		ADD_TRACK(HouseOfTheRisingSun, 268),
+		ADD_TRACK(AWhiterShadeOfPale, 235),
+		ADD_TRACK(BlackMagicWoman, 321),
+		ADD_TRACK(Abracadabra, 308),
+		ADD_TRACK(AintNoLoveInTheHeartOfTheCity, 233),
+		ADD_TRACK(CaliforniaDreamin, 377),
+		ADD_TRACK(SunshineOfYourLove, 250),
+		ADD_TRACK(ComeAndGetYourLove, 300),
+		ADD_TRACK(SpaceTruckin, 273),
+		ADD_TRACK(Strutter, 190),
+		ADD_TRACK(Refugee, 202),
+		ADD_TRACK(LosingMyReligion, 268),
+		ADD_TRACK(DearGod, 219),
+		ADD_TRACK(BurninForYou, 271),
+		ADD_TRACK(CallMe, 212),
+		ADD_TRACK(DaYaThinkImSexy, 327),
+		ADD_TRACK(TakeMeOut, 240),
+		ADD_TRACK(SevenNationArmy, 231),
+		ADD_TRACK(OffendInEveryWay, 186),
+		ADD_TRACK(NotYourKindOfPeople, 299),
+		ADD_TRACK(NotUpToMe, 289),
+		ADD_TRACK(LoveWillTearUsApart, 204),
+		ADD_TRACK(Buena, 199),
+		ADD_TRACK(WalkThisLand, 415),
+		ADD_TRACK(PumpedUpKicks, 239),
+		ADD_TRACK(WhenTheLeveeBreaks, 428),
+		ADD_TRACK(ThenCameTheLastDaysOfMay, 210),
+		ADD_TRACK(TheBottomlessHole, 193),
+		ADD_TRACK(TheChain, 270),
+		ADD_TRACK(CatchTheRainbow, 396),
+		ADD_TRACK(BadCompany, 288),
+		ADD_TRACK(Mother, 204),
+		ADD_TRACK(ThatSmell, 348),
+		ADD_TRACK(MaryJanesLastDance, 273),
+		ADD_TRACK(CallMeTheBreeze, 307),
+		ADD_TRACK(ChoctawBingo, 513),
+		ADD_TRACK(FeelGoodInc, 222),
+		ADD_TRACK(CantFeelMyFace, 215),
+		ADD_TRACK(SingAlong, 174),
+		ADD_TRACK(AGoodLook, 241),
+		ADD_TRACK(TheLessIKnowTheBetter, 217),
+		ADD_TRACK(AbsoluteTerritory, 268),
+		ADD_TRACK(CocaineMan, 234),
+		ADD_TRACK(InTheCity, 235),
+		ADD_TRACK(AHorseWithNoName, 252),
+		ADD_TRACK(HowLong, 229),
+		ADD_TRACK(InHellIllBeInGoodCompany, 249),
+		ADD_TRACK(BigIron, 235),
+		ADD_TRACK(LastTrainHome, 338),
+		ADD_TRACK(SimpleMan, 356),
+		ADD_TRACK(StairwayToHeaven, 482),
+		ADD_TRACK(FreeBird, 607),
+		ADD_TRACK(TheEcstasyOfGold, 200),
+		ADD_TRACK(Battery, 312),
+		ADD_TRACK(SeekAndDestroy, 414),
+		ADD_TRACK(ForWhomTheBellTolls, 309),
+		ADD_TRACK(SquareHammer, 239),
+		ADD_TRACK(DanceMacabre, 219),
+		ADD_TRACK(KnightsOfCydonia, 367),
+		ADD_TRACK(ISeeThroughYou, 342),
+		ADD_TRACK(DeathsDoor, 435),
+		ADD_TRACK(WelcomeToTheVoid, 490),
+		ADD_TRACK(ColdSweat, 186),
+		ADD_TRACK(WeAreTheRoadCrew, 190),
+		ADD_TRACK(AceOfSpades, 166),
+		ADD_TRACK(HolyDiver, 280),
+		ADD_TRACK(DeathByDesign, 280),
+		ADD_TRACK(CultOfPersonality, 292),
+		ADD_TRACK(Hellraiser, 293),
+		ADD_TRACK(NoMoreTears, 445),
+		ADD_TRACK(Stillborn, 195),
+		ADD_TRACK(CounterfeitGod, 258),
+		ADD_TRACK(MassMurderMachine, 346),
+		ADD_TRACK(BatteringRam, 261),
+		ADD_TRACK(GenocideJunkies, 352),
+		ADD_TRACK(WarPigs, 474),
+		ADD_TRACK(NIB, 364),
+		ADD_TRACK(Supernaut, 270),
+		ADD_TRACK(SabbraCadabra, 357),
+		ADD_TRACK(SabbathBloodySabbath, 347),
+		ADD_TRACK(Snowblind, 325),
+		ADD_TRACK(ANationalAcrobat, 375),
+		ADD_TRACK(IntoTheVoid, 370),
+		ADD_TRACK(CountryGirl, 242),
+		ADD_TRACK(HeavenAndHell, 417),
+		ADD_TRACK(Badlands, 647),
+		ADD_TRACK(MoonsOfNeptune, 1011),
+		ADD_TRACK(TheMan, 266),
+		ADD_TRACK(Rasputin, 267)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(SadBoiHours)
+		ADD_TRACK(MadWorld, 182),
+		ADD_TRACK(TheEveningTrain, 257),
+		ADD_TRACK(LookOnDownFromTheBridge, 287),
+		ADD_TRACK(ThisWorldIsNotMyHome, 207),
+		ADD_TRACK(Changes, 302),
+		ADD_TRACK(BuryMeNotInTheLonePrairie, 144),
+		ADD_TRACK(Hurt, 228),
+		ADD_TRACK(HopeIsADangerousThingForAWoman, 326),
+		ADD_TRACK(LetItGo, 258),
+		ADD_TRACK(TheSoundOfSilence, 187),
+		ADD_TRACK(Hallelujah, 393),
+		ADD_TRACK(SuicideIsPainless, 174),
+		ADD_TRACK(SomewhereOverTheRainbow, 210),
+		ADD_TRACK(LettertoMadeline, 471)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(GhostTwoMixtape)
+		ADD_TRACK(ManyMen, 246),
+		ADD_TRACK(WhereTheHoodAt, 286),
+		ADD_TRACK(DoubleBaccin, 135),
+		ADD_TRACK(WarPigs, 478),
+		ADD_TRACK(AllAlongTheWatchtower, 241),
+		ADD_TRACK(BlackBetty, 238),
+		ADD_TRACK(CloserToTheSun, 146),
+		ADD_TRACK(ForWhatItsWorth, 157),
+		ADD_TRACK(ItWasntMe, 227),
+		ADD_TRACK(Colt45, 359),
+		ADD_TRACK(AllCanadianSurfClub, 169),
+		ADD_TRACK(FortunateSon, 138),
+		ADD_TRACK(ManInTheBox, 287),
+		ADD_TRACK(Pisces, 305),
+		ADD_TRACK(Demolisher, 219)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(GhostThreeMixtape)
+		ADD_TRACK(AreYouSureHankDoneItThisWay, 175),
+		ADD_TRACK(Track020299, 163),
+		ADD_TRACK(MyNameIsMud, 283),
+		ADD_TRACK(DieForYou, 260),
+		ADD_TRACK(RealAmerican, 362),
+		ADD_TRACK(MoneyTrees, 386),
+		ADD_TRACK(FuckYouBitch, 204),
+		ADD_TRACK(KickstartMyHeart, 282),
+		ADD_TRACK(WarPigs, 478),
+		ADD_TRACK(HotelLobby, 204),
+		ADD_TRACK(ItWasAGoodDay, 260),
+		ADD_TRACK(BadMoonRising, 138)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(TibbsTastefulTracks)
+		ADD_TRACK(BackInBlack, 253),
+		ADD_TRACK(Bandit, 149),
+		ADD_TRACK(PartyAndBullshit, 221),
+		ADD_TRACK(KnifeTalk, 243),
+		ADD_TRACK(SpiritInTheSky, 239),
+		ADD_TRACK(HereComesTheSun, 191),
+		ADD_TRACK(Twirlanta, 185),
+		ADD_TRACK(Rocky, 216),
+		ADD_TRACK(AlmostEasy, 235),
+		ADD_TRACK(TheRubberbandMan, 213),
+		ADD_TRACK(DancingintheMoonlight, 181),
+		ADD_TRACK(Superstition, 266),
+		ADD_TRACK(ComeandGetYourLove, 207),
+		ADD_TRACK(ComeOutYeBlackAndTans, 184),
+		ADD_TRACK(Erika, 178)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(ALittleTrollin)
+		ADD_TRACK(Way2Sexy, 258),
+		ADD_TRACK(ALot, 288),
+		ADD_TRACK(MoneyTrees, 388),
+		ADD_TRACK(MiddleChild, 213),
+		ADD_TRACK(GirlsWantGirls, 222),
+		ADD_TRACK(Blessings, 252),
+		ADD_TRACK(MoneyInTheGrave, 205),
+		ADD_TRACK(ThereHeGo, 196),
+		ADD_TRACK(Dysfunctional, 244),
+		ADD_TRACK(RicFlairDrip, 172),
+		ADD_TRACK(SmackThat, 212),
+		ADD_TRACK(InDaClub, 193),
+		ADD_TRACK(ManyMen, 256),
+		ADD_TRACK(Rockstar, 217),
+		ADD_TRACK(KnifeTalk, 243),
+		ADD_TRACK(RapGod, 366),
+		ADD_TRACK(GoingBad, 180),
+		ADD_TRACK(Bugatti, 326),
+		ADD_TRACK(SickoMode, 322),
+		ADD_TRACK(DNA, 186),
+		ADD_TRACK(FollowGod, 104),
+		ADD_TRACK(Heartless, 210),
+		ADD_TRACK(LaughNowCryLater, 261),
+		ADD_TRACK(TunnelVision, 268),
+		ADD_TRACK(LifeIsGood, 237),
+		ADD_TRACK(SoundtrackToMyLife, 237),
+		ADD_TRACK(ToosieSlide, 248),
+		ADD_TRACK(ImSoPaid, 263),
+		ADD_TRACK(DripTooHard, 146),
+		ADD_TRACK(Yeah, 252)
+	CREATE_DISC_WEAPON_FOOTER()
 };
