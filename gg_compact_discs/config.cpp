@@ -295,8 +295,8 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(Cassette, "\x\gg\addons\gg_music\EasternDefianceMegamix\Cassette.ogg")
 	CREATE_SOUND_VOLUMES(Ragnarok, "\x\gg\addons\gg_music\EasternDefianceMegamix\Ragnarok.ogg")
 	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\SleepGuys.ogg")
-	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\RedViburnum.ogg")
-	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\AtDawnAlyans.ogg")
+	CREATE_SOUND_VOLUMES(RedViburnum, "\x\gg\addons\gg_music\EasternDefianceMegamix\RedViburnum.ogg")
+	CREATE_SOUND_VOLUMES(AtDawnAlyans, "\x\gg\addons\gg_music\EasternDefianceMegamix\AtDawnAlyans.ogg")
 };
 class CfgVehicles
 {
