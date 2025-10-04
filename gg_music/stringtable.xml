@@ -826,5 +826,11 @@
         <Key ID="STR_GG_Music_SleepGuys">
             <English>Yaroslav Rudenko - Sleep, Guys</English>
         </Key>
+        <Key ID="STR_GG_Music_RedViburnum">
+            <English>Red Viburnum</English>
+        </Key>
+        <Key ID="STR_GG_Music_AtDawnAlyans">
+            <English>At Dawn – Alyans</English>
+        </Key>
     </Package>
 </Project>

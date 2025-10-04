@@ -22,7 +22,8 @@ class CfgPatches
 			"gg_compact_discs_MixtapeOne",
 			"gg_compact_discs_MixtapeTwo",
 			"gg_compact_discs_MixtapeThree",
-			"gg_compact_discs_MixtapeFour"
+			"gg_compact_discs_MixtapeFour",
+			"gg_compact_discs_EasternDefianceMegamix"
 		};
 		requiredVersion=2.0799999;
 		requiredAddons[]=
@@ -294,6 +295,8 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(Cassette, "\x\gg\addons\gg_music\EasternDefianceMegamix\Cassette.ogg")
 	CREATE_SOUND_VOLUMES(Ragnarok, "\x\gg\addons\gg_music\EasternDefianceMegamix\Ragnarok.ogg")
 	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\SleepGuys.ogg")
+	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\RedViburnum.ogg")
+	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\AtDawnAlyans.ogg")
 };
 class CfgVehicles
 {
@@ -587,5 +590,7 @@ class CfgWeapons
 		ADD_TRACK(Cassette, 144),
 		ADD_TRACK(Ragnarok, 237),
 		ADD_TRACK(SleepGuys, 158),
+		ADD_TRACK(RedViburnum, 154),
+		ADD_TRACK(AtDawnAlyans, 343)
 	CREATE_DISC_WEAPON_FOOTER()
 };
