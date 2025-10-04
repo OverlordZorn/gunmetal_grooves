@@ -221,6 +221,11 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(SuicideIsPainless, "\x\gg\addons\gg_music\SadBoiHours\SuicideIsPainless.ogg")
 	CREATE_SOUND_VOLUMES(SomewhereOverTheRainbow, "\x\gg\addons\gg_music\SadBoiHours\SomewhereOverTheRainbow.ogg")
 	CREATE_SOUND_VOLUMES(LettertoMadeline, "\x\gg\addons\gg_music\SadBoiHours\LettertoMadeline.ogg")
+	CREATE_SOUND_VOLUMES(lostCause, "\x\gg\addons\gg_music\SadBoiHours\lostCause.ogg")
+	CREATE_SOUND_VOLUMES(PassOut, "\x\gg\addons\gg_music\SadBoiHours\PassOut.ogg")
+	CREATE_SOUND_VOLUMES(Alright, "\x\gg\addons\gg_music\SadBoiHours\Alright.ogg")
+	CREATE_SOUND_VOLUMES(Hurricane, "\x\gg\addons\gg_music\SadBoiHours\Hurricane.ogg")
+	CREATE_SOUND_VOLUMES(Alone, "\x\gg\addons\gg_music\SadBoiHours\Alone.ogg")
 	CREATE_SOUND_VOLUMES(Way2Sexy, "\x\gg\addons\gg_music\MixtapeThree\Way2Sexy.ogg")
 	CREATE_SOUND_VOLUMES(ALot, "\x\gg\addons\gg_music\MixtapeThree\ALot.ogg")
 	CREATE_SOUND_VOLUMES(MoneyTrees, "\x\gg\addons\gg_music\MixtapeThree\MoneyTrees.ogg")
@@ -498,6 +503,11 @@ class CfgWeapons
 		ADD_TRACK(SuicideIsPainless, 174),
 		ADD_TRACK(SomewhereOverTheRainbow, 210),
 		ADD_TRACK(LettertoMadeline, 471)
+		ADD_TRACK(lostCause, 242)
+		ADD_TRACK(PassOut, 148)
+		ADD_TRACK(Alright, 170)
+		ADD_TRACK(Hurricane, 213)
+		ADD_TRACK(Alone, 127)
 	CREATE_DISC_WEAPON_FOOTER()
 	CREATE_DISC_WEAPON_HEADER(MixtapeOne)
 		ADD_TRACK(ManyMen, 246),

@@ -555,6 +555,21 @@
         <Key ID="STR_GG_Music_LettertoMadeline">
             <English>Ian Noe - Letter to Madeline</English>
         </Key>
+        <Key ID="STR_GG_Music_lostCause">
+            <English>DIV!NITY - lost Cause</English>
+        </Key>
+        <Key ID="STR_GG_Music_PassOut">
+            <English>DIV!NITY - Pass Out</English>
+        </Key>
+        <Key ID="STR_GG_Music_Alright">
+            <English>DIV!NITY - Alright</English>
+        </Key>
+        <Key ID="STR_GG_Music_Hurricane">
+            <English>DIV!NITY - Hurricane</English>
+        </Key>
+        <Key ID="STR_GG_Music_Alone">
+            <English>DIV!NITY - Alone</English>
+        </Key>
 
         <!-- Mixtape One -->
         <Key ID="STR_GG_Music_MixtapeOne">
@@ -606,7 +621,7 @@
             <English>Slaughter to Prevail - Demolisher</English>
         </Key>
 
-        <!-- Ghost Three Mixtape -->
+        <!-- Mixtape Two -->
         <Key ID="STR_GG_Music_MixtapeTwo">
             <English>MixtapeTwo</English>
         </Key>
@@ -697,9 +712,9 @@
             <English>Kraut Music - Erika</English>
         </Key>
 
-        <!-- A Little Trollin' -->
-        <Key ID="STR_GG_Music_ALittleTrollin">
-            <English>A Little Trollin'</English>
+        <!-- Mixtape Three -->
+        <Key ID="STR_GG_Music_MixtapeThree">
+            <English>Mixtape Three</English>
         </Key>
         <Key ID="STR_GG_Music_Way2Sexy">
             <English>Drake - Way 2 Sexy ft. Future, Young Thug</English>
