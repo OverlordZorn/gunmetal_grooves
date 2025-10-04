@@ -502,11 +502,11 @@ class CfgWeapons
 		ADD_TRACK(Hallelujah, 393),
 		ADD_TRACK(SuicideIsPainless, 174),
 		ADD_TRACK(SomewhereOverTheRainbow, 210),
-		ADD_TRACK(LettertoMadeline, 471)
-		ADD_TRACK(lostCause, 242)
-		ADD_TRACK(PassOut, 148)
-		ADD_TRACK(Alright, 170)
-		ADD_TRACK(Hurricane, 213)
+		ADD_TRACK(LettertoMadeline, 471),
+		ADD_TRACK(lostCause, 242),
+		ADD_TRACK(PassOut, 148),
+		ADD_TRACK(Alright, 170),
+		ADD_TRACK(Hurricane, 213),
 		ADD_TRACK(Alone, 127)
 	CREATE_DISC_WEAPON_FOOTER()
 	CREATE_DISC_WEAPON_HEADER(MixtapeOne)
