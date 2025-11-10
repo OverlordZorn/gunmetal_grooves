@@ -23,7 +23,8 @@ class CfgPatches
 			"gg_compact_discs_MixtapeTwo",
 			"gg_compact_discs_MixtapeThree",
 			"gg_compact_discs_MixtapeFour",
-			"gg_compact_discs_EasternDefianceMegamix"
+			"gg_compact_discs_EasternDefianceMegamix",
+			"gg_compact_discs_Echosofthe2000s"
 		};
 		requiredVersion=2.0799999;
 		requiredAddons[]=
@@ -302,6 +303,26 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(SleepGuys, "\x\gg\addons\gg_music\EasternDefianceMegamix\SleepGuys.ogg")
 	CREATE_SOUND_VOLUMES(RedViburnum, "\x\gg\addons\gg_music\EasternDefianceMegamix\RedViburnum.ogg")
 	CREATE_SOUND_VOLUMES(AtDawnAlyans, "\x\gg\addons\gg_music\EasternDefianceMegamix\AtDawnAlyans.ogg")
+	CREATE_SOUND_VOLUMES(Dontrelax, "\x\gg\addons\gg_music\EasternDefianceMegamix\Dontrelax.ogg")
+	CREATE_SOUND_VOLUMES(DarkinHere, "\x\gg\addons\gg_music\Echoesofthe2000s\DarkinHere.ogg")
+	CREATE_SOUND_VOLUMES(Blurry, "\x\gg\addons\gg_music\Echoesofthe2000s\Blurry.ogg")
+	CREATE_SOUND_VOLUMES(Boom, "\x\gg\addons\gg_music\Echoesofthe2000s\Boom.ogg")
+	CREATE_SOUND_VOLUMES(BytheWay, "\x\gg\addons\gg_music\Echoesofthe2000s\BytheWay.ogg")
+	CREATE_SOUND_VOLUMES(SendthePainBelow, "\x\gg\addons\gg_music\Echoesofthe2000s\SendthePainBelow.ogg")
+	CREATE_SOUND_VOLUMES(TheRed, "\x\gg\addons\gg_music\Echoesofthe2000s\TheRed.ogg")
+	CREATE_SOUND_VOLUMES(BackHome, "\x\gg\addons\gg_music\Echoesofthe2000s\BackHome.ogg")
+	CREATE_SOUND_VOLUMES(Goneaway, "\x\gg\addons\gg_music\Echoesofthe2000s\Goneaway.ogg")
+	CREATE_SOUND_VOLUMES(Higher, "\x\gg\addons\gg_music\Echoesofthe2000s\Higher.ogg")
+	CREATE_SOUND_VOLUMES(Cold, "\x\gg\addons\gg_music\Echoesofthe2000s\Cold.ogg")
+	CREATE_SOUND_VOLUMES(RememberEverything, "\x\gg\addons\gg_music\Echoesofthe2000s\RememberEverything.ogg")
+	CREATE_SOUND_VOLUMES(BoulevardofBrokenDreams, "\x\gg\addons\gg_music\Echoesofthe2000s\BoulevardofBrokenDreams.ogg")
+	CREATE_SOUND_VOLUMES(Lifehouse, "\x\gg\addons\gg_music\Echoesofthe2000s\Lifehouse.ogg")
+	CREATE_SOUND_VOLUMES(HowYouRemindMe, "\x\gg\addons\gg_music\Echoesofthe2000s\HowYouRemindMe.ogg")
+	CREATE_SOUND_VOLUMES(KillingintheName, "\x\gg\addons\gg_music\Echoesofthe2000s\KillingintheName.ogg")
+	CREATE_SOUND_VOLUMES(Kryptonite, "\x\gg\addons\gg_music\Echoesofthe2000s\Kryptonite.ogg")
+	CREATE_SOUND_VOLUMES(Pain, "\x\gg\addons\gg_music\Echoesofthe2000s\Pain.ogg")
+	CREATE_SOUND_VOLUMES(RightLeftWrong, "\x\gg\addons\gg_music\Echoesofthe2000s\RightLeftWrong.ogg")
+	CREATE_SOUND_VOLUMES(Headstrong, "\x\gg\addons\gg_music\Echoesofthe2000s\Headstrong.ogg")
 };
 class CfgVehicles
 {
@@ -314,6 +335,7 @@ class CfgVehicles
 	CREATE_DISC_ITEM(MixtapeThree)
 	CREATE_DISC_ITEM(MixtapeFour)
 	CREATE_DISC_ITEM(EasternDefianceMegamix)
+	CREATE_DISC_ITEM(Echoesofthe2000s)
 };
 class CfgWeapons
 {
@@ -601,6 +623,28 @@ class CfgWeapons
 		ADD_TRACK(Ragnarok, 237),
 		ADD_TRACK(SleepGuys, 158),
 		ADD_TRACK(RedViburnum, 154),
-		ADD_TRACK(AtDawnAlyans, 343)
+		ADD_TRACK(AtDawnAlyans, 343),
+		ADD_TRACK(Dontrelax, 162)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(Echoesofthe2000s)
+		ADD_TRACK(DarkinHere, 243),
+		ADD_TRACK(Blurry, 258),
+		ADD_TRACK(Boom, 190),
+		ADD_TRACK(BytheWay, 221),
+		ADD_TRACK(SendthePainBelow, 252),
+		ADD_TRACK(TheRed, 237),
+		ADD_TRACK(BackHome, 267),
+		ADD_TRACK(Goneaway, 192),
+		ADD_TRACK(Higher, 347),
+		ADD_TRACK(Cold, 194),
+		ADD_TRACK(RememberEverything, 288),
+		ADD_TRACK(BoulevardofBrokenDreams, 261),
+		ADD_TRACK(Lifehouse, 217),
+		ADD_TRACK(HowYouRemindMe, 224),
+		ADD_TRACK(KillingintheName, 321),
+		ADD_TRACK(Kryptonite, 248),
+		ADD_TRACK(Pain, 171),
+		ADD_TRACK(RightLeftWrong, 238),
+		ADD_TRACK(Headstrong, 292)
 	CREATE_DISC_WEAPON_FOOTER()
 };

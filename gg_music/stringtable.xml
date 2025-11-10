@@ -845,7 +845,72 @@
             <English>Red Viburnum</English>
         </Key>
         <Key ID="STR_GG_Music_AtDawnAlyans">
-            <English>At Dawn – Alyans</English>
+            <English>At Dawn - Alyans</English>
+        </Key>
+        <Key ID="STR_GG_Music_Dontrelax">
+            <English>Scriptonite - Dont relax</English>
+        </Key>
+
+        <!-- Echoes of the 2000s -->
+        <Key ID="STR_GG_Music_Echoesofthe2000s">
+            <English>Echoes of the 2000s</English>
+        </Key>
+        <Key ID="STR_GG_Music_DarkinHere">
+            <English>Alien Ant Farm - Dark in Here</English>
+        </Key>
+        <Key ID="STR_GG_Music_Blurry">
+            <English>Blurry</English>
+        </Key>
+        <Key ID="STR_GG_Music_Boom">
+            <English>P.O.D. - Boom</English>
+        </Key>
+        <Key ID="STR_GG_Music_BytheWay">
+            <English>By the Way</English>
+        </Key>
+        <Key ID="STR_GG_Music_SendthePainBelow">
+            <English>Chevelle - Send the Pain Below</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheRed">
+            <English>Chevelle - The Red</English>
+        </Key>
+        <Key ID="STR_GG_Music_BackHome">
+            <English>Cold - Back Home</English>
+        </Key>
+        <Key ID="STR_GG_Music_Goneaway">
+            <English>Cold - Gone away</English>
+        </Key>
+        <Key ID="STR_GG_Music_Higher">
+            <English>Creed - Higher</English>
+        </Key>
+        <Key ID="STR_GG_Music_Cold">
+            <English>Crossfade - Cold</English>
+        </Key>
+        <Key ID="STR_GG_Music_RememberEverything">
+            <English>Five Finger Death Punch - Remember Everything</English>
+        </Key>
+        <Key ID="STR_GG_Music_BoulevardofBrokenDreams">
+            <English>Green Day - Boulevard of Broken Dreams</English>
+        </Key>
+        <Key ID="STR_GG_Music_Lifehouse">
+            <English>Hanging By A Moment - Lifehouse</English>
+        </Key>
+        <Key ID="STR_GG_Music_HowYouRemindMe">
+            <English>How You Remind Me</English>
+        </Key>
+        <Key ID="STR_GG_Music_KillingintheName">
+            <English>Trapt - Killing in the Name</English>
+        </Key>
+        <Key ID="STR_GG_Music_Kryptonite">
+            <English>Kryptonite</English>
+        </Key>
+        <Key ID="STR_GG_Music_Pain">
+            <English>Jimmy Eat World - Pain</English>
+        </Key>
+        <Key ID="STR_GG_Music_RightLeftWrong">
+            <English>Three Days Grace - Right Left Wrong</English>
+        </Key>
+        <Key ID="STR_GG_Music_Headstrong">
+            <English>Trapt - Headstrong</English>
         </Key>
     </Package>
 </Project>

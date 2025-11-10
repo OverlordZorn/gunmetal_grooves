@@ -49,5 +49,11 @@
         <Key ID="STR_GG_Compact_Discs_EasternDefianceMegamix_Description">
             <English>A compact disc containing songs for Eastern Defiance Megamix.</English>
         </Key>
+        <Key ID="STR_GG_Compact_Discs_Echoesofthe2000s_DisplayName">
+            <English>CD (Echoes of the 2000s)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_Echoesofthe2000s_Description">
+            <English>A compact disc containing songs for Echoes of the 2000s.</English>
+        </Key>
     </Package>
 </Project>
