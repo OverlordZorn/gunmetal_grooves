@@ -69,6 +69,62 @@ class CfgVehicles
 			};
 		};
 	};
+	class Tank;
+    class Tank_F: Tank
+	{
+		class ACE_SelfActions
+		{
+			class gg_car_stereo
+			{
+				displayName="$STR_gg_car_stereo_DisplayName";
+				condition="call gg_car_stereo_fnc_canOpen";
+				statement="call gg_car_stereo_fnc_open";
+				icon="\x\gg\addons\car_stereo\ui\icon_stereo_ca.paa";
+			};
+		};
+	};
+	class Air;
+	class Helicopter: Air
+	{
+		class ACE_SelfActions
+		{
+			class gg_car_stereo
+			{
+				displayName="$STR_gg_car_stereo_DisplayName";
+				condition="call gg_car_stereo_fnc_canOpen";
+				statement="call gg_car_stereo_fnc_open";
+				icon="\x\gg\addons\car_stereo\ui\icon_stereo_ca.paa";
+			};
+		};
+	};
+	class Plane: Air
+	{
+		class ACE_SelfActions
+		{
+			class gg_car_stereo
+			{
+				displayName="$STR_gg_car_stereo_DisplayName";
+				condition="call gg_car_stereo_fnc_canOpen";
+				statement="call gg_car_stereo_fnc_open";
+				icon="\x\gg\addons\car_stereo\ui\icon_stereo_ca.paa";
+			};
+		};
+	};
+	class Ship; 
+    class Ship_F: Ship
+	{
+		class ACE_SelfActions
+		{
+			class gg_car_stereo
+			{
+				displayName="$STR_gg_car_stereo_DisplayName";
+				condition="call gg_car_stereo_fnc_canOpen";
+				statement="call gg_car_stereo_fnc_open";
+				icon="\x\gg\addons\car_stereo\ui\icon_stereo_ca.paa";
+			};
+		};
+	};
+	
 };
 class CfgWeapons
 {
