@@ -24,7 +24,8 @@ class CfgPatches
 			"gg_compact_discs_MixtapeThree",
 			"gg_compact_discs_MixtapeFour",
 			"gg_compact_discs_EasternDefianceMegamix",
-			"gg_compact_discs_Echosofthe2000s"
+			"gg_compact_discs_Echosofthe2000s",
+			"gg_compact_discs_PeaceintheMiddleEast"
 		};
 		requiredVersion=2.0799999;
 		requiredAddons[]=
@@ -257,6 +258,7 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(ImSoPaid, "\x\gg\addons\gg_music\MixtapeThree\ImSoPaid.ogg")
 	CREATE_SOUND_VOLUMES(DripTooHard, "\x\gg\addons\gg_music\MixtapeThree\DripTooHard.ogg")
 	CREATE_SOUND_VOLUMES(Yeah, "\x\gg\addons\gg_music\MixtapeThree\Yeah.ogg")
+	CREATE_SOUND_VOLUMES(HerFriend, "\x\gg\addons\gg_music\MixtapeThree\HerFriend.ogg")
 	CREATE_SOUND_VOLUMES(WhereTheHoodAt, "\x\gg\addons\gg_music\MixtapeOne\WhereTheHoodAt.ogg")
 	CREATE_SOUND_VOLUMES(DoubleBaccin, "\x\gg\addons\gg_music\MixtapeOne\DoubleBaccin.ogg")
 	CREATE_SOUND_VOLUMES(BlackBetty, "\x\gg\addons\gg_music\MixtapeOne\BlackBetty.ogg")
@@ -304,6 +306,14 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(RedViburnum, "\x\gg\addons\gg_music\EasternDefianceMegamix\RedViburnum.ogg")
 	CREATE_SOUND_VOLUMES(AtDawnAlyans, "\x\gg\addons\gg_music\EasternDefianceMegamix\AtDawnAlyans.ogg")
 	CREATE_SOUND_VOLUMES(Dontrelax, "\x\gg\addons\gg_music\EasternDefianceMegamix\Dontrelax.ogg")
+	CREATE_SOUND_VOLUMES(SKWLKR, "\x\gg\addons\gg_music\EasternDefianceMegamix\SKWLKR.ogg")
+	CREATE_SOUND_VOLUMES(MyFriendTapeRecorder, "\x\gg\addons\gg_music\EasternDefianceMegamix\MyFriendTapeRecorder.ogg")
+	CREATE_SOUND_VOLUMES(bi2, "\x\gg\addons\gg_music\EasternDefianceMegamix\bi2.ogg")
+	CREATE_SOUND_VOLUMES(Threechoppersovermyyard, "\x\gg\addons\gg_music\EasternDefianceMegamix\Threechoppersovermyyard.ogg")
+	CREATE_SOUND_VOLUMES(SportsGlasses, "\x\gg\addons\gg_music\EasternDefianceMegamix\SportsGlasses.ogg")
+	CREATE_SOUND_VOLUMES(DarkoftheNight, "\x\gg\addons\gg_music\EasternDefianceMegamix\DarkoftheNight.ogg")
+	CREATE_SOUND_VOLUMES(VerySimple, "\x\gg\addons\gg_music\EasternDefianceMegamix\VerySimple.ogg")
+	CREATE_SOUND_VOLUMES(Polishcow, "\x\gg\addons\gg_music\EasternDefianceMegamix\Polishcow.ogg")
 	CREATE_SOUND_VOLUMES(DarkinHere, "\x\gg\addons\gg_music\Echoesofthe2000s\DarkinHere.ogg")
 	CREATE_SOUND_VOLUMES(Blurry, "\x\gg\addons\gg_music\Echoesofthe2000s\Blurry.ogg")
 	CREATE_SOUND_VOLUMES(Boom, "\x\gg\addons\gg_music\Echoesofthe2000s\Boom.ogg")
@@ -323,6 +333,22 @@ class CfgSounds
 	CREATE_SOUND_VOLUMES(Pain, "\x\gg\addons\gg_music\Echoesofthe2000s\Pain.ogg")
 	CREATE_SOUND_VOLUMES(RightLeftWrong, "\x\gg\addons\gg_music\Echoesofthe2000s\RightLeftWrong.ogg")
 	CREATE_SOUND_VOLUMES(Headstrong, "\x\gg\addons\gg_music\Echoesofthe2000s\Headstrong.ogg")
+	CREATE_SOUND_VOLUMES(AmrDiab, "\x\gg\addons\gg_music\PeaceintheMIddleEast\AmrDiab.ogg")
+	CREATE_SOUND_VOLUMES(BarraBarra, "\x\gg\addons\gg_music\PeaceintheMIddleEast\BarraBarra.ogg")
+	CREATE_SOUND_VOLUMES(BijiYPGBijiYPJ, "\x\gg\addons\gg_music\PeaceintheMIddleEast\BijiYPGBijiYPJ.ogg")
+	CREATE_SOUND_VOLUMES(DaboorShabjdeed, "\x\gg\addons\gg_music\PeaceintheMIddleEast\DaboorShabjdeed.ogg")
+	CREATE_SOUND_VOLUMES(DadEbatoranokor, "\x\gg\addons\gg_music\PeaceintheMIddleEast\DadEbatoranokor.ogg")
+	CREATE_SOUND_VOLUMES(HavaNagilaOriginal, "\x\gg\addons\gg_music\PeaceintheMIddleEast\HavaNagilaOriginal.ogg")
+	CREATE_SOUND_VOLUMES(Hunger, "\x\gg\addons\gg_music\PeaceintheMIddleEast\Hunger.ogg")
+	CREATE_SOUND_VOLUMES(SaintLevant, "\x\gg\addons\gg_music\PeaceintheMIddleEast\SaintLevant.ogg")
+	CREATE_SOUND_VOLUMES(SanakhuduNasheed, "\x\gg\addons\gg_music\PeaceintheMIddleEast\SanakhuduNasheed.ogg")
+	CREATE_SOUND_VOLUMES(SERHADO, "\x\gg\addons\gg_music\PeaceintheMIddleEast\SERHADO.ogg")
+	CREATE_SOUND_VOLUMES(ShlomoArtzi, "\x\gg\addons\gg_music\PeaceintheMIddleEast\ShlomoArtzi.ogg")
+	CREATE_SOUND_VOLUMES(TamerHosny, "\x\gg\addons\gg_music\PeaceintheMIddleEast\TamerHosny.ogg")
+	CREATE_SOUND_VOLUMES(TheRevivoProject, "\x\gg\addons\gg_music\PeaceintheMIddleEast\TheRevivoProject.ogg")
+	CREATE_SOUND_VOLUMES(TUL8TE, "\x\gg\addons\gg_music\PeaceintheMIddleEast\TUL8TE.ogg")
+	CREATE_SOUND_VOLUMES(YourForeheadisRaisedHighandDoesntLookDown, "\x\gg\addons\gg_music\PeaceintheMIddleEast\YourForeheadisRaisedHighandDoesntLookDown.ogg")
+	CREATE_SOUND_VOLUMES(Allah, "\x\gg\addons\gg_music\PeaceintheMIddleEast\Allah.ogg")
 };
 class CfgVehicles
 {
@@ -336,6 +362,7 @@ class CfgVehicles
 	CREATE_DISC_ITEM(MixtapeFour)
 	CREATE_DISC_ITEM(EasternDefianceMegamix)
 	CREATE_DISC_ITEM(Echoesofthe2000s)
+	CREATE_DISC_ITEM(PeaceintheMIddleEast)
 };
 class CfgWeapons
 {
@@ -609,7 +636,8 @@ class CfgWeapons
 		ADD_TRACK(ToosieSlide, 248),
 		ADD_TRACK(ImSoPaid, 263),
 		ADD_TRACK(DripTooHard, 146),
-		ADD_TRACK(Yeah, 252)
+		ADD_TRACK(Yeah, 252),
+		ADD_TRACK(HerFriend, 186)
 	CREATE_DISC_WEAPON_FOOTER()
 	CREATE_DISC_WEAPON_HEADER(EasternDefianceMegamix)
 		ADD_TRACK(AriseBelgorod, 164),
@@ -624,7 +652,15 @@ class CfgWeapons
 		ADD_TRACK(SleepGuys, 158),
 		ADD_TRACK(RedViburnum, 154),
 		ADD_TRACK(AtDawnAlyans, 343),
-		ADD_TRACK(Dontrelax, 162)
+		ADD_TRACK(Dontrelax, 162),
+		ADD_TRACK(SKWLKR, 120),
+		ADD_TRACK(MyFriendTapeRecorder, 325),
+		ADD_TRACK(bi2, 291),
+		ADD_TRACK(Threechoppersovermyyard, 185),
+		ADD_TRACK(Polishcow, 223),
+		ADD_TRACK(SportsGlasses, 141),
+		ADD_TRACK(DarkoftheNight, 188),
+		ADD_TRACK(VerySimple, 162)
 	CREATE_DISC_WEAPON_FOOTER()
 	CREATE_DISC_WEAPON_HEADER(Echoesofthe2000s)
 		ADD_TRACK(DarkinHere, 243),
@@ -646,5 +682,23 @@ class CfgWeapons
 		ADD_TRACK(Pain, 171),
 		ADD_TRACK(RightLeftWrong, 238),
 		ADD_TRACK(Headstrong, 292)
+	CREATE_DISC_WEAPON_FOOTER()
+	CREATE_DISC_WEAPON_HEADER(PeaceintheMIddleEast)
+		ADD_TRACK(AmrDiab, 321),
+		ADD_TRACK(BarraBarra, 347),
+		ADD_TRACK(BijiYPGBijiYPJ, 253),
+		ADD_TRACK(DaboorShabjdeed, 193),
+		ADD_TRACK(DadEbatoranokor, 278),
+		ADD_TRACK(HavaNagilaOriginal, 165),
+		ADD_TRACK(Hunger, 395),
+		ADD_TRACK(SaintLevant, 172),
+		ADD_TRACK(SanakhuduNasheed, 190),
+		ADD_TRACK(SERHADO, 229),
+		ADD_TRACK(ShlomoArtzi, 244),
+		ADD_TRACK(TamerHosny, 249),
+		ADD_TRACK(TheRevivoProject, 362),
+		ADD_TRACK(TUL8TE, 213),
+		ADD_TRACK(YourForeheadisRaisedHighandDoesntLookDown, 177),
+		ADD_TRACK(Allah, 213)
 	CREATE_DISC_WEAPON_FOOTER()
 };

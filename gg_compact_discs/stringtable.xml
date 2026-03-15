@@ -32,7 +32,7 @@
             <English>A compact disc containing Mixtape Four songs.</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_SadBoiHours_DisplayName">
-            <English>CD (SadBoiHours)</English>
+            <English>CD (Sad Boi Hours)</English>
         </Key>
         <Key ID="STR_GG_Compact_Discs_SadBoiHours_Description">
             <English>A compact disc Sad Boi Hours songs.</English>
@@ -54,6 +54,12 @@
         </Key>
         <Key ID="STR_GG_Compact_Discs_Echoesofthe2000s_Description">
             <English>A compact disc containing songs for Echoes of the 2000s.</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_PeaceintheMIddleEast_DisplayName">
+            <English>CD (Peace in the MIddle East)</English>
+        </Key>
+        <Key ID="STR_GG_Compact_Discs_PeaceintheMIddleEast_Description">
+            <English>A compact disc containing songs for Peace in the MIddle East.</English>
         </Key>
     </Package>
 </Project>

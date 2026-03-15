@@ -575,20 +575,11 @@
         <Key ID="STR_GG_Music_MixtapeOne">
             <English>MixtapeOne</English>
         </Key>
-        <Key ID="STR_GG_Music_ManyMen">
-            <English>50 Cent - Many Men</English>
-        </Key>
         <Key ID="STR_GG_Music_WhereTheHoodAt">
             <English>DMX - Where The Hood At</English>
         </Key>
         <Key ID="STR_GG_Music_DoubleBaccin">
             <English>MaxThaDemon - Double Baccin</English>
-        </Key>
-         <Key ID="STR_GG_Music_WarPigs">
-            <English>Black Sabbath - War Pigs</English>
-        </Key>
-        <Key ID="STR_GG_Music_AllAlongTheWatchtower">
-            <English>The Jimi Hendrix Experience - All Along The Watchtower</English>
         </Key>
         <Key ID="STR_GG_Music_BlackBetty">
             <English>Ram Jam - Black Betty</English>
@@ -640,23 +631,14 @@
         <Key ID="STR_GG_Music_RealAmerican">
             <English>Rick Derringer - RealAmerican</English>
         </Key>
-        <Key ID="STR_GG_Music_MoneyTrees">
-            <English>Kendrick Lamar - Money Trees</English>
-        </Key>
         <Key ID="STR_GG_Music_FuckYouBitch">
             <English>Wheeler Walker Jr. - Fuck You Bitch</English>
         </Key>
         <Key ID="STR_GG_Music_KickstartMyHeart">
             <English>Motley Crue - Kickstart My Heart</English>
         </Key>
-        <Key ID="STR_GG_Music_WarPigs">
-            <English>Black Sabbath - War Pigs</English>
-        </Key>
         <Key ID="STR_GG_Music_HotelLobby">
             <English>Quavo And Takeoff - Hotel Lobby</English>
-        </Key>
-        <Key ID="STR_GG_Music_ItWasAGoodDay">
-            <English>Ice Cube - It Was A Good Day</English>
         </Key>
         <Key ID="STR_GG_Music_BadMoonRising">
             <English>Creedence Clearwater Revival - Bad Moon Rising</English>
@@ -674,9 +656,6 @@
         </Key>
         <Key ID="STR_GG_Music_PartyAndBullshit">
             <English>Biggie Smalls - Party And Bullshit</English>
-        </Key>
-        <Key ID="STR_GG_Music_KnifeTalk">
-            <English>Drake - Knife Talk</English>
         </Key>
         <Key ID="STR_GG_Music_SpiritintheSky">
             <English>Norman Greenbaum - Spirit In The Sky</English>
@@ -701,9 +680,6 @@
         </Key>
         <Key ID="STR_GG_Music_Superstition">
             <English>Stevie Wonder - Superstition</English>
-        </Key>
-        <Key ID="STR_GG_Music_ComeandGetYourLove">
-            <English>Redbone - Come and Get Your Love</English>
         </Key>
         <Key ID="STR_GG_Music_ComeOutYeBlackAndTans">
             <English>WolfeTones - Come Out Ye Black And Tans</English>
@@ -806,6 +782,9 @@
         <Key ID="STR_GG_Music_Yeah">
             <English>Usher - Yeah! ft. Lil Jon, Ludacris</English>
         </Key>
+        <Key ID="STR_GG_Music_Her Friend">
+            <English>Her Friend - Tyred</English>
+        </Key>
     
     <!-- Eastern Defiance Megamix -->
         <Key ID="STR_GG_Music_EasternDefianceMegamix">
@@ -849,6 +828,30 @@
         </Key>
         <Key ID="STR_GG_Music_Dontrelax">
             <English>Scriptonite - Dont relax</English>
+        </Key>
+        <Key ID="STR_GG_Music_SKWLKR">
+            <English>SKWLKR</English>
+        </Key>
+        <Key ID="STR_GG_Music_MyFriendTapeRecorder">
+            <English>My Friend Tape Recorder - Dead Evening</English>
+        </Key>
+        <Key ID="STR_GG_Music_bi2">
+            <English>My Friend - bi2</English>
+        </Key>
+        <Key ID="STR_GG_Music_Threechoppersovermyyard">
+            <English>Three choppers over my yard</English>
+        </Key>
+        <Key ID="STR_GG_Music_Polishcow">
+            <English>Polish cow</English>
+        </Key>
+        <Key ID="STR_GG_Music_SportsGlasses">
+            <English>Sports Glasses - Buerak</English>
+        </Key>
+        <Key ID="STR_GG_Music_DarkoftheNight">
+            <English>Dark of the Night</English>
+        </Key>
+        <Key ID="STR_GG_Music_VerySimple">
+            <English>Very Simple (in the name of good)</English>
         </Key>
 
         <!-- Echoes of the 2000s -->
@@ -911,6 +914,59 @@
         </Key>
         <Key ID="STR_GG_Music_Headstrong">
             <English>Trapt - Headstrong</English>
+        </Key>
+
+        <!-- Peace in the Middle East  -->
+        <Key ID="STR_GG_Music_PeaceintheMiddleEast">
+            <English>Peace in the Middle East</English>
+        </Key>
+        <Key ID="STR_GG_Music_AmrDiab">
+            <English>Amr Diab - Tamally Maak</English>
+        </Key>
+        <Key ID="STR_GG_Music_BarraBarra">
+            <English>Barra Barra</English>
+        </Key>
+        <Key ID="STR_GG_Music_BijiYPGBijiYPJ">
+            <English>Biji YPG! Biji YPJ!</English>
+        </Key>
+        <Key ID="STR_GG_Music_DaboorShabjdeed">
+            <English>Daboor Shabjdeed</English>
+        </Key>
+        <Key ID="STR_GG_Music_DadEbatoranokor">
+            <English>Da də batorano kor</English>
+        </Key>
+        <Key ID="STR_GG_Music_HavaNagilaOriginal">
+            <English>Hava Nagila Original</English>
+        </Key>
+        <Key ID="STR_GG_Music_Hunger">
+            <English>Hunger</English>
+        </Key>
+        <Key ID="STR_GG_Music_SaintLevant">
+            <English>Saint Levant - EXILE</English>
+        </Key>
+        <Key ID="STR_GG_Music_SanakhuduNasheed">
+            <English>Sanakhudu Nasheed</English>
+        </Key>
+        <Key ID="STR_GG_Music_SERHADO">
+            <English>SERHADO - Ez Kurdistan im</English>
+        </Key>
+        <Key ID="STR_GG_Music_ShlomoArtzi">
+            <English>Shlomo Artzi - Nof Yaldut</English>
+        </Key>
+        <Key ID="STR_GG_Music_TamerHosny">
+            <English>Tamer Hosny - Naseny Leh</English>
+        </Key>
+        <Key ID="STR_GG_Music_TheRevivoProject">
+            <English>The Revivo Project - Medley</English>
+        </Key>
+        <Key ID="STR_GG_Music_TUL8TE">
+            <English>TUL8TE - Senee</English>
+        </Key>
+        <Key ID="STR_GG_Music_YourForeheadisRaisedHighandDoesntLookDown">
+            <English>Your Forehead is Raised High and Doesn't Look Down</English>
+        </Key>
+        <Key ID="STR_GG_Music_Allah">
+            <English>Allah - Syria Bashar</English>
         </Key>
     </Package>
 </Project>
