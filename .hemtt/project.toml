@@ -1,2 +1,10 @@
 ﻿name = "Gunmetal Grooves"
 prefix = "gg"
+
+
+[version]
+major = 1 # Overrides path when set
+minor = 0
+patch = 2
+
+git_hash = 0 # Default: 8
