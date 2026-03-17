@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gg">
+    <Package name="main">
+        <Key ID="STR_gg_main_URL">
+            <English>REDACTED</English>
+        </Key>
+        <Key ID="STR_gg_main_author">
+            <English>Lucid Vision Studios</English>
+        </Key>
+        <Key ID="STR_gg_main_editor_category_cds">
+            <English>Compact Discs</English>
+        </Key>
+        <Key ID="STR_gg_main_editor_category_main">
+            <English>Gunmetal Grooves</English>
+        </Key>
+    </Package>
+</Project>

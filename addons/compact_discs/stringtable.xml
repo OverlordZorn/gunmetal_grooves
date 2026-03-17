@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="gg">
+    <Package name="compact_discs">
+        <Key ID="STR_gg_compact_discs_90sRap_Description">
+            <English>A compact disc containing 90s rap songs.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_90sRap_DisplayName">
+            <English>CD (90s Rap)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_AssortedBangers_Description">
+            <English>A compact disc containing assorted bangers.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_AssortedBangers_DisplayName">
+            <English>CD (Assorted Bangers)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_EasternDefianceMegamix_Description">
+            <English>A compact disc containing songs for Eastern Defiance Megamix.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_EasternDefianceMegamix_DisplayName">
+            <English>CD (Eastern Defiance Megamix)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_Echoesofthe2000s_Description">
+            <English>A compact disc containing songs for Echoes of the 2000s.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_Echoesofthe2000s_DisplayName">
+            <English>CD (Echoes of the 2000s)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeFour_Description">
+            <English>A compact disc containing Mixtape Four songs.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeFour_DisplayName">
+            <English>CD (Mixtape Four)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeOne_Description">
+            <English>A compact disc containing Mixtape One songs.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeOne_DisplayName">
+            <English>CD (Mixtape One)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeThree_Description">
+            <English>A compact disc containing songs for Mixtape Three.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeThree_DisplayName">
+            <English>CD (Mixtape Three)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeTwo_Description">
+            <English>A compact disc containing Mixtape Two songs.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_MixtapeTwo_DisplayName">
+            <English>CD (Mixtape Two)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_PeaceintheMIddleEast_Description">
+            <English>A compact disc containing songs for Peace in the MIddle East.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_PeaceintheMIddleEast_DisplayName">
+            <English>CD (Peace in the MIddle East)</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_SadBoiHours_Description">
+            <English>A compact disc Sad Boi Hours songs.</English>
+        </Key>
+        <Key ID="STR_gg_compact_discs_SadBoiHours_DisplayName">
+            <English>CD (Sad Boi Hours)</English>
+        </Key>
+    </Package>
+</Project>
