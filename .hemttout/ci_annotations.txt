@@ -1,2 +1,0 @@
-2||2||15||16||error||SQF Syntax could not be parsed||unparseable syntax||/addons/car_stereo/initKeybinds.sqf
-2||2||10||11||error||SQF Syntax could not be parsed||unparseable syntax||/addons/car_stereo/initSettings.sqf
