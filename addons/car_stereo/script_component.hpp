@@ -20,4 +20,5 @@
 #include "\a3\ui_f\hpp\defineResincl.inc"
 #include "\a3\ui_f\hpp\defineCommonGrids.inc"
 
-#include "script_macros_gui.hpp"
+#include "defines_general.hpp"
+#include "defines_gui.hpp"
