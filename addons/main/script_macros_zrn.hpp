@@ -21,7 +21,6 @@
 #define Q(var1) QUOTE(var1)
 #define QQ(var1) QQUOTE(var1)
 
-#define QADDON Q(ADDON)
 #define QPREFIX Q(PREFIX)
 #define QCOMPONENT Q(COMPONENT)
 
