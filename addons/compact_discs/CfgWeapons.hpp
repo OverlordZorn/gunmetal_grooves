@@ -1,11 +1,11 @@
 #define CREATE_DISC_WEAPON_HEADER(CLASSNAME) \
-class GVAR(CLASSNAME): EGVAR(car_stereo,BaseCD) \
+class GVAR(CLASSNAME): PVAR(BaseCD) \
 { \
     author = ECSTRING(main,author); \
     displayName = CSTRING(DOUBLES(CLASSNAME,DisplayName)); \
     descriptionShort = CSTRING(DOUBLES(CLASSNAME,Description)); \
     scope = 2; \
-    GVAR(tracks)[]= \
+    PVAR(tracks)[]= \
     {
 
 #define ADD_TRACK(TRACKNAME, DURATION) \
@@ -21,12 +21,12 @@ class GVAR(CLASSNAME): EGVAR(car_stereo,BaseCD) \
 
 class CfgWeapons
 {
-	class gg_car_stereo_BaseCD;
+	class PVAR(BaseCD);
 	CREATE_DISC_WEAPON_HEADER(90sRap)
 		ADD_TRACK(AmbitionzAzARidah,278),
 		ADD_TRACK(DiamondsAndWood,313),
 		ADD_TRACK(GinAndJuice,212),
-		ADD_TRACK(HailMary,312),
+		ADD_TRACK(HailMary,312), 
 		ADD_TRACK(IGot5OnIt,253),
 		ADD_TRACK(ISmellSmoke,209),
 		ADD_TRACK(ItWasAGoodDay,260),

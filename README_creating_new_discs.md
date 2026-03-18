@@ -29,7 +29,7 @@ This guide will walk you through the process of adding new compact discs to the 
     ```cpp
     class CfgWeapons
     {
-        class gg_car_stereo_BaseCD;
+        class gg_BaseCD;
         CREATE_DISC_WEAPON_HEADER(SynthwaveHits)
             ADD_TRACK(MyNewTrack, 300),
             ADD_TRACK(AnotherTrack, 240)

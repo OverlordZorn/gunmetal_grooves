@@ -46,17 +46,17 @@ Let's say you want to rename the disc `gg_compact_discs_90sRap` to `gg_compact_d
         // ... existing vehicles
         class gg_compact_discs_GoldenAgeRap: Item_Base_F // formerly gg_compact_discs_90sRap
         {
-            author="$STR_GG_Main_Author";
-            displayName="$STR_gg_compact_discs_GoldenAgeRap_DisplayName"; // updated
-            vehicleClass="Items";
-            scope=2;
-            scopeCurator=2;
+            author = "$STR_GG_Main_Author";
+            displayName = "$STR_gg_compact_discs_GoldenAgeRap_DisplayName"; // updated
+            vehicleClass = "Items";
+            scope = 2;
+            scopeCurator = 2;
             class TransportItems
             {
                 class _xx_gg_compact_discs_GoldenAgeRap // updated
                 {
-                    name="gg_compact_discs_GoldenAgeRap"; // updated
-                    count=1;
+                    name = "gg_compact_discs_GoldenAgeRap"; // updated
+                    count = 1;
                 };
             };
         };
@@ -74,14 +74,13 @@ Let's say you want to rename the disc `gg_compact_discs_90sRap` to `gg_compact_d
     class CfgWeapons
     {
         // ... existing weapons
-        class gg_compact_discs_GoldenAgeRap: gg_car_stereo_BaseCD // formerly gg_compact_discs_90sRap
+        class gg_compact_discs_GoldenAgeRap: gg_BaseCD // formerly gg_compact_discs_90sRap
         {
-            author="$STR_GG_Main_Author";
-            displayName="$STR_gg_compact_discs_GoldenAgeRap_DisplayName"; // updated
-            descriptionShort="$STR_gg_compact_discs_GoldenAgeRap_Description"; // updated
-            scope=2;
-            gg_car_stereo_tracks[]=
-            {
+            author = "$STR_GG_Main_Author";
+            displayName = "$STR_gg_compact_discs_GoldenAgeRap_DisplayName"; // updated
+            descriptionShort = "$STR_gg_compact_discs_GoldenAgeRap_Description"; // updated
+            scope = 2;
+            gg_tracks[] = {
                 // ... tracklist remains the same
             };
         };

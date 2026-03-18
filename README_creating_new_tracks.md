@@ -5,13 +5,13 @@ This guide will walk you through the process of adding new tracks to the game. F
 ## Adding New Tracks
 
 1.  **Add the audio file:**
-    *   Place your new audio file (in `.ogg` format) into a subdirectory within the `gg_music` directory. For example, if you're adding a new genre called "Synthwave", you would create a new directory `gg_music/Synthwave` and place your `.ogg` file inside it.
+    *   Place your new audio file (in `.ogg` format) into a subdirectory within the `music` directory. For example, if you're adding a new genre called "Synthwave", you would create a new directory `music/Synthwave` and place your `.ogg` file inside it.
 
 2.  **Define the sound in `config.cpp`:**
     *   Open `gg_compact_discs/config.cpp`.
     *   Inside the `CfgSounds` class, use the `CREATE_SOUND_VOLUMES` macro to define the sound for your new track. This macro automatically generates the 10 required sound definitions for each volume level.
     *   The `className` should be the name of your track (e.g., `MyNewTrack`).
-    *   The `filePath` should be the path to your `.ogg` file (e.g., `"\x\gg\addons\gg_music\Synthwave\MyNewTrack.ogg"`).
+    *   The `filePath` should be the path to your `.ogg` file (e.g., `"\lucid\gg\addons\music\Synthwave\MyNewTrack.ogg"`).
 
     **Example:**
 
@@ -19,7 +19,7 @@ This guide will walk you through the process of adding new tracks to the game. F
     class CfgSounds
     {
         // ... existing sounds
-        CREATE_SOUND_VOLUMES(MyNewTrack, "\x\gg\addons\gg_music\Synthwave\MyNewTrack.ogg")
+        CREATE_SOUND_VOLUMES(MyNewTrack, "\lucid\gg\addons\music\Synthwave\MyNewTrack.ogg")
     };
     ```
 
