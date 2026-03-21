@@ -1,10 +1,32 @@
-﻿name = "Gunmetal Grooves"
-prefix = "gg"
+﻿mainprefix = "lucid"      # Ideally, replace "~MAINPREFIX~" across the whole repo with your mod's mainprefix, example "t" (without the "")
+prefix = "gg"             # Ideally, replace "~PREFIX~" across the whole repo with your mod's prefix, example "mod" (without the "") 
 
+name = "Gunmetal Grooves"
+
+[properties]
+author = "Lucid Vision Studios"
+url = "https://github.com/Lucid-Vision-Studios/gunmetal_grooves"
+
+[binarize]
+# enabled = true # Default: true
+
+[files]
+include = [
+    "mod.cpp",      # These files are copied to the build directory by default
+    "meta.cpp",     # They do not need to be added to your list
+    "LICENSE",
+    "gg_logo.paa",
+    "*.bikey",
+]
+exclude = [
+    "*.psd",        # By default this list is empty
+    "*.md",
+    "/.vscode/",
+]
 
 [version]
-major = 1 # Overrides path when set
-minor = 0
-patch = 2
-
+# path = "addons/main/script_version.hpp" # Default
+# major = 0 # Overrides path when set
+# minor = 1
+# patch = 1
 git_hash = 0 # Default: 8
